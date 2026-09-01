@@ -19,7 +19,17 @@
 
 打开并安装这个 skill：[Socpaper 安装页](https://github.com/SousekiL/sociology-paper-framework)。也可以直接下载：[ZIP 安装包](https://github.com/SousekiL/sociology-paper-framework/archive/refs/heads/main.zip)。
 
-它适合支持自定义 Skill、Agent 或提示词包的工具，例如 Codex、Claude Code、Hermes Agent 和其他 Agent 工作台：导入或复制**完整文件夹**，然后新开一个对话即可使用。不同工具的导入按钮或文件夹位置会不同，但不需要配置 API Key 才能生成研究框架。
+它适合支持自定义 Skill、Agent 或提示词包的工具。导入或复制**完整文件夹**，然后新开一个对话即可使用。不同工具的导入按钮或文件夹位置会不同，但不需要配置 API Key 才能生成研究框架。
+
+常见选择包括：
+
+- Codex、Claude Code、Hermes Agent 等支持本地 Skill 的 Agent 工具；
+- [WorkBuddy](https://www.workbuddy.cn/work/)：可使用自定义 Skills；
+- [扣子 Coze](https://docs.coze.cn/)：新建智能体后，将本 skill 的说明作为“人设与回复逻辑”，需要时再配置工作流；
+- [Dify](https://docs.dify.ai/)：新建聊天助手或 Agent，把 `SKILL.md` 的说明放入系统提示词，并按需添加知识库；
+- [FastGPT](https://doc.fastgpt.cn/)：新建对话 Agent 或工作流，将核心说明放入系统配置。
+
+不同平台未必支持直接导入同一种 Skill 文件夹；遇到这种情况，请保留整个文件夹作为参考，并优先复制 `SKILL.md` 的内容到该平台的系统提示词或 Agent 指令区。
 
 ### 第二步：输入命令
 

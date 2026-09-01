@@ -19,7 +19,16 @@ Turn a sociology topic into a feasible, journal-oriented **quantitative research
 
 Open the [Socpaper repository](https://github.com/SousekiL/sociology-paper-framework) and install the skill, or download the [ZIP package](https://github.com/SousekiL/sociology-paper-framework/archive/refs/heads/main.zip).
 
-It can be used in tools that support custom Skills, Agents, or prompt packages, including Codex, Claude Code, Hermes Agent, and other agent workbenches. Import or copy the **entire folder**, then start a new chat. The UI and folder location differ by tool; no API key is needed to generate a research framework.
+It can be used in tools that support custom Skills, Agents, or prompt packages. Import or copy the **entire folder**, then start a new chat. The UI and folder location differ by tool; no API key is needed to generate a research framework.
+
+Common options include Codex, Claude Code, Hermes Agent, and the following widely used China-focused platforms:
+
+- [WorkBuddy](https://www.workbuddy.cn/work/) for custom Skills;
+- [Coze](https://docs.coze.cn/): create an agent, put this skill's instructions in its persona/response logic, and add a workflow if needed;
+- [Dify](https://docs.dify.ai/): create a Chatbot or Agent, put `SKILL.md` in the system prompt, and optionally attach a knowledge base;
+- [FastGPT](https://doc.fastgpt.cn/): create a Chat Agent or workflow and place the core instructions in system configuration.
+
+Platforms do not necessarily import the same Skill-folder format. If direct import is unavailable, retain the full folder as reference and copy `SKILL.md` into the platform's system-prompt or agent-instructions field.
 
 ### 2. Use one command
 
