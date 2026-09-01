@@ -23,7 +23,7 @@ jobs:
       - name: Append current and historical metadata
         run: python scripts/update_literature_library.py --mode weekly
       - name: Select open-access full texts for review
-        run: python scripts/build_fulltext_review_queue.py --max 3
+        run: python scripts/build_fulltext_review_queue.py --max 1
       - name: Install PDF text extractor
         if: ${{ env.LLM_API_KEY != '' }}
         run: sudo apt-get update && sudo apt-get install -y poppler-utils

@@ -16,7 +16,7 @@ LIBRARY = ROOT / "library"
 QUEUE = LIBRARY / "fulltext-review-queue.json"
 NOTES = LIBRARY / "fulltext-reading-notes.jsonl"
 MAX_BYTES = 20 * 1024 * 1024
-CHUNK_CHARS = 45_000
+CHUNK_CHARS = 20_000
 
 CHUNK_PROMPT = """You are reading one consecutive chunk of a lawful open-access research article. Return strict JSON only.
 Extract concise, Chinese, non-quoted evidence relevant to: research puzzle, theory/mechanism, data/sample,
@@ -49,10 +49,10 @@ def extract_pdf(data: bytes) -> str:
         return text.read_text(encoding="utf-8", errors="replace")
 
 
-def ask_model(api_key: str, prompt: str, content: str) -> dict:
+def ask_model(api_key: str, prompt: str, content: str, max_tokens: int = 1_200) -> dict:
     model = os.environ.get("LLM_MODEL") or os.environ.get("OPENAI_MODEL", "gpt-4.1-mini")
     base_url = (os.environ.get("LLM_BASE_URL") or os.environ.get("OPENAI_BASE_URL") or "https://api.openai.com/v1").rstrip("/")
-    request_body = json.dumps({"model": model, "temperature": 0, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt + content}]}).encode()
+    request_body = json.dumps({"model": model, "temperature": 0, "max_tokens": max_tokens, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt + content}]}).encode()
     request = urllib.request.Request(base_url + "/chat/completions", data=request_body, headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json", "Accept": "application/json", "User-Agent": "Mozilla/5.0 (compatible; sociology-paper-framework/1.0)"}, method="POST")
     with urllib.request.urlopen(request, timeout=180) as response:
         payload = json.load(response)
@@ -75,7 +75,7 @@ def chunks(text: str) -> list[str]:
 
 def review_full_article(api_key: str, article_text: str) -> dict:
     evidence = [ask_model(api_key, CHUNK_PROMPT, chunk) for chunk in chunks(article_text)]
-    return ask_model(api_key, SYNTHESIS_PROMPT, json.dumps(evidence, ensure_ascii=False))
+    return ask_model(api_key, SYNTHESIS_PROMPT, json.dumps(evidence, ensure_ascii=False), max_tokens=1_800)
 
 
 def main() -> int:
