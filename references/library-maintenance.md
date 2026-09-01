@@ -8,6 +8,6 @@
 python3 scripts/run_local_weekly_update.py
 ```
 
-该命令只改变本机 `library/`。如要启用开放全文阅读，在本机环境中设置 `LLM_API_KEY`，并按需要设置 `LLM_BASE_URL` 与 `LLM_MODEL`。请将密钥保存在操作系统的安全凭据工具或私有环境配置中，不要写入 Git。
+该命令只改变本机 `library/`。如要启用开放全文阅读，在本机环境中设置 `LLM_API_KEY`，并按需要设置 `LLM_BASE_URL` 与 `LLM_MODEL`。在 macOS 上，更新器也会读取当前用户钥匙串中名为 `sociology-paper-framework-llm-api-key`、`sociology-paper-framework-llm-base-url` 和 `sociology-paper-framework-llm-model` 的项目。请将这些配置保存在操作系统的安全凭据工具或私有环境配置中，不要写入 Git。
 
 私有库采用追加和去重规则：已有记录不会被新扫描替换；每次更新只补充新条目、状态和阅读卡。
