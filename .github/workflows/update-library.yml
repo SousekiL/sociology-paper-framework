@@ -18,6 +18,17 @@ jobs:
           python-version: "3.12"
       - name: Append current and historical metadata
         run: python scripts/update_literature_library.py --mode weekly
+      - name: Select open-access full texts for review
+        run: python scripts/build_fulltext_review_queue.py --max 3
+      - name: Install PDF text extractor
+        if: ${{ secrets.OPENAI_API_KEY != '' }}
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Read selected open-access full texts
+        if: ${{ secrets.OPENAI_API_KEY != '' }}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4.1-mini
+        run: python scripts/review_openaccess_fulltexts.py
       - name: Commit enriched library
         run: |
           if git diff --quiet; then

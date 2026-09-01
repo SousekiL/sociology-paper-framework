@@ -13,6 +13,7 @@ Turn a topic into a rigorous, primarily **quantitative** sociology research desi
 2. Read [references/quantitative-research-standard.md](references/quantitative-research-standard.md) before proposing an identification strategy. It is the required output and measurement standard.
 3. Build the sociological puzzle directly from the topic, mechanism, scope condition, and comparison group. Do not force a theory or a causal claim merely because a method card exists.
 4. Use `library/article-metadata.jsonl` only when the user specifically asks for literature leads, a journal scan, or methodological trends. It contains public metadata and available abstracts, not articles. For its append-only update protocol, read [references/library-maintenance.md](references/library-maintenance.md).
+5. When `library/fulltext-reading-notes.jsonl` contains notes, use them as stronger design evidence than metadata alone. Each note comes from a small weekly set of legally accessible full texts; read [references/full-text-review-protocol.md](references/full-text-review-protocol.md) before relying on it.
 
 ## Deliverable
 
