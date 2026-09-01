@@ -15,17 +15,28 @@ Turn a sociology topic into a feasible, journal-oriented **quantitative research
 
 ## Use
 
-Install the directory in Codex’s skills folder, then invoke:
+After installation, invoke one of four short commands (each is under 10 letters):
 
 ```text
-$sociology-paper-framework
-Topic: How do social relationships affect occupational mobility among platform workers?
+$socpaper  How do social relationships affect platform workers' mobility?
+$socmethod social relationships and occupational mobility
+$soctheory  social relationships in digital platforms
+$socreview  social capital and youth employment in China
 ```
 
-You can specify the intended design directly:
+| Command | Purpose | Best input |
+| --- | --- | --- |
+| `$socpaper` | Full quantitative paper framework | Topic or research question |
+| `$socmethod` | Method selection, identification, and diagnostics | Question or keywords |
+| `$soctheory` | Theory, mechanisms, and propositions | Topic or phenomenon |
+| `$socreview` | Prior research, debates, and gaps | Field or keywords |
+
+All four primarily use the model's own social-science and methodological reasoning. A private local library is used only when it is genuinely available as supplementary evidence; uncertain memory is never presented as a verified citation.
+
+You can also specify the intended design directly:
 
 ```text
-$sociology-paper-framework
+$socpaper
 In English, design a causal study of hukou status and occupational mobility, prioritizing accessible Chinese panel data.
 ```
 

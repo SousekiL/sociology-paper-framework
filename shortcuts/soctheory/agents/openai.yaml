@@ -1,0 +1,4 @@
+interface:
+  display_name: "Soctheory"
+  short_description: "为社会学议题建立理论机制、命题与边界条件"
+  default_prompt: "使用 $soctheory 为这个话题搭建社会学理论背景："

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Socmethod"
+  short_description: "为社会学问题提供量化方法选择与诊断建议"
+  default_prompt: "使用 $socmethod 为这个问题推荐可行的量化研究方法："

@@ -1,11 +1,11 @@
 ---
-name: sociology-paper-framework
-description: Generate a feasible sociology-journal quantitative research framework for a user topic, grounded in methods, measurement, data, and quality standards.
+name: socpaper
+description: Design a feasible, journal-oriented quantitative sociology paper from a topic or research question.
 ---
 
-# Sociology Paper Framework
+# Socpaper
 
-Turn a topic into a rigorous, primarily **quantitative** sociology research design. This is a research-design system—not an archive of copyrighted articles, nor a promise to store or reproduce original papers.
+Turn a topic into a rigorous, primarily **quantitative** sociology paper framework. Use general academic reasoning first; local cards and any private library are optional evidence aids, not a substitute for judgment.
 
 ## Start with the quantitative reference system
 

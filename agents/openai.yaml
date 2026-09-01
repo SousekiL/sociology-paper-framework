@@ -1,4 +1,4 @@
 interface:
-  display_name: "社会学论文框架"
-  short_description: "将社会学话题转换为有理论方法文献和数据依据的研究框架"
-  default_prompt: "围绕这个话题，为我生成一份可写成社会学期刊论文的分析框架："
+  display_name: "Socpaper"
+  short_description: "将社会学话题转化为可执行的量化论文框架"
+  default_prompt: "使用 $socpaper 为这个话题设计一篇量化社会学论文："
