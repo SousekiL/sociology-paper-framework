@@ -1,13 +1,13 @@
-# 私有文献资料库维护
+# Private Literature-Library Maintenance
 
-`library/` 是本机私有目录，已被 Git 忽略，绝不应提交、同步到公开仓库或随 skill 分发。它只保存你的本地资料索引和结构化阅读卡，不保存论文 PDF 或原文文本。
+`library/` is a private local directory ignored by Git. Never commit it, synchronize it to a public repository, or distribute it with the skill. It stores only local literature indexes and structured reading cards, never article PDFs or raw article text.
 
-## 本地更新
+## Local update
 
 ```bash
 python3 scripts/run_local_weekly_update.py
 ```
 
-该命令只改变本机 `library/`。如要启用开放全文阅读，在本机环境中设置 `LLM_API_KEY`，并按需要设置 `LLM_BASE_URL` 与 `LLM_MODEL`。在 macOS 上，更新器也会读取当前用户钥匙串中名为 `sociology-paper-framework-llm-api-key`、`sociology-paper-framework-llm-base-url` 和 `sociology-paper-framework-llm-model` 的项目。请将这些配置保存在操作系统的安全凭据工具或私有环境配置中，不要写入 Git。
+This command changes only the local `library/`. To enable open-access full-text review, set local `LLM_API_KEY` plus optional `LLM_BASE_URL` and `LLM_MODEL`. On macOS, the updater also checks the current user's Keychain items named `sociology-paper-framework-llm-api-key`, `sociology-paper-framework-llm-base-url`, and `sociology-paper-framework-llm-model`. Keep these values in an operating-system credential store or private environment configuration, never in Git.
 
-私有库采用追加和去重规则：已有记录不会被新扫描替换；每次更新只补充新条目、状态和阅读卡。
+The private library is append-only and deduplicated: new scans supplement existing records, state, and reading cards without replacing previous records.

@@ -114,9 +114,9 @@ def append(records: list[dict], seen: set[str]) -> int:
 
 def write_manual_queue(sources: list[dict]) -> None:
     manual = [row for row in sources if not row.get("issn")]
-    lines = ["# 中文期刊人工核验队列", "", "这些来源不稳定地提供开放结构化元数据，因此不会被脚本伪装成已自动抓取。每周可依据官网目录手动追加题名、作者、期次、公开摘要（如有）和官网链接到 `article-metadata.jsonl`。", ""]
+    lines = ["# Chinese Journal Manual Verification Queue", "", "These sources do not reliably provide open structured metadata, so the script will not pretend they were fetched automatically. Each week, use the official journal directories to manually append titles, authors, issue details, public abstracts (if available), and official links to `article-metadata.jsonl`.", ""]
     for row in manual:
-        lines.append(f"- **{row['name']}**：{row['official_url']}")
+        lines.append(f"- **{row['name']}**: {row['official_url']}")
     MANUAL_QUEUE.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 

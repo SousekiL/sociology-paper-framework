@@ -1,30 +1,30 @@
-# 量化社会学研究的交付标准
+# Quantitative Sociology Deliverable Standard
 
-此 skill 的核心不是复述论文，而是把一个话题变为可审查、可复现、与结论强度匹配的研究设计。先运行 `scripts/query_quant_catalog.py --topic "..."`，再按以下顺序生成框架。
+The task is not to restate papers. It is to turn a topic into a reviewable, reproducible research design with a conclusion strength matched to its evidence. Run `scripts/query_quant_catalog.py --topic "..."` first, then use the following sequence.
 
-## 必须交付的十二项
+## Twelve required elements
 
-1. **研究对象与边界**：谁、何地、何时、以什么分析单位；明确比较组。
-2. **研究问题**：一个可回答的主问题和不超过三项子问题。区分描述、关联、机制和因果问题。
-3. **理论机制与可证伪假设**：用“X → M → Y，在 Z 条件下改变”的形式，写清竞争机制。
-4. **估计对象（estimand）**：例如总体均值差、条件关联、政策的 ATT 或中介路径；不把回归系数直接等同因果效应。
-5. **数据可行性**：名称、观察层级、波次/年份、可得性、核心变量能否测得、与研究对象的覆盖关系。
-6. **变量字典**：因变量、自变量、中介/调节、混杂控制、聚类层级。每项须列概念、原始题项或字段、编码、缺失处理、方向和替代编码。
-7. **样本构建**：纳入/排除、权重、合并规则、重复观测、样本量损失与最终 N。
-8. **模型与识别**：模型公式/估计式、固定效应或比较基线、识别假设，以及该假设为何在本题中可能/不可能成立。
-9. **诊断**：至少包括模型设定、聚类/权重、缺失、共线性、异常值；因果设计另做平行趋势、操纵检验、弱工具等对应诊断。
-10. **稳健性与异质性**：预先说明替代测量、样本窗口、安慰剂、不同模型与分组；不做无穷尽的显著性搜寻。
-11. **可得到的结论**：用条件性措辞写明证据能支持什么、不能支持什么，以及外推边界。
-12. **透明与伦理**：数据许可、去标识化、预分析/代码本、版本控制与不可公开材料的说明。
+1. **Population and boundary:** who, where, when, and at what unit of analysis; name the comparison group.
+2. **Research question:** one answerable primary question and no more than three subquestions; distinguish description, association, mechanism, and causation.
+3. **Theoretical mechanism and falsifiable hypotheses:** state how “X → M → Y changes under Z,” including competing mechanisms.
+4. **Estimand:** for example, a population mean difference, conditional association, policy ATT, or mediation path; never equate a regression coefficient with a causal effect by default.
+5. **Data feasibility:** dataset name, observation level, wave/year, access, measurement of core variables, and coverage of the target population.
+6. **Variable dictionary:** outcome, exposure, mediator/moderator, confounding controls, and clustering level. For each, give construct, raw item or field, coding, missing-data rule, expected direction, and alternative coding.
+7. **Sample construction:** inclusion/exclusion, weights, merge rules, repeat observations, sample loss, and final N.
+8. **Model and identification:** formula/estimating equation, fixed effects or comparison baseline, identification assumptions, and why those assumptions may or may not hold here.
+9. **Diagnostics:** at minimum model specification, clustering/weights, missingness, collinearity, and outliers; add design-specific checks such as parallel trends, manipulation, or weak-instrument diagnostics for causal designs.
+10. **Robustness and heterogeneity:** prestate alternative measures, sample windows, placebos, model forms, and subgroups; do not search endlessly for significance.
+11. **Possible conclusions:** conditionally state what the evidence can and cannot support, plus the external-validity boundary.
+12. **Transparency and ethics:** data permission, de-identification, preregistration/codebook, version control, and non-public material.
 
-## 变量角色的硬约束
+## Hard constraints on variable roles
 
-- 控制变量必须是处理/主要自变量发生之前的共同原因；不能控制中介、碰撞点或处理后的变量。
-- 中介分析要求明确时间顺序，且不能把“加入中介后系数变小”当作机制证明。
-- 调节效应报告交互项与预测值/边际效应，不能仅解释一个交互系数的符号。
-- 量表先说明题项、反向题、加总/平均、信度（如适用）和跨群体可比性；不要为了提高 alpha 删除理论关键题项。
-- 类别变量说明参照组；连续变量说明单位、变换、中心化/标准化与截尾规则；所有重编码均保留可复现规则。
+- Controls must be common causes measured before treatment or the main exposure. Do not control for mediators, colliders, or post-treatment variables.
+- Mediation analysis needs a defensible temporal order; a smaller coefficient after adding a mediator is not mechanism proof.
+- For moderation, report interactions and predicted values/marginal effects, not only an interaction coefficient's sign.
+- For scales, state items, reverse coding, aggregation, reliability when applicable, and cross-group comparability. Do not remove theoretically essential items merely to raise alpha.
+- For categorical variables, state the reference group. For continuous variables, state units, transformations, centering/standardization, and trimming rules. Preserve reproducible recoding rules.
 
-## 首选分析梯度
+## Preferred analysis gradient
 
-从描述统计与样本选择开始，再估计主模型，最后才进入识别更强的设计。若题目没有可信的外生冲击、阈值或工具，不应为了“高级”而声称因果；扎实的关联设计、机制边界和测量质量优先。
+Start with descriptive statistics and sample selection, estimate the primary model next, and consider stronger identification only afterward. Do not claim causality merely to appear advanced when the topic lacks a credible exogenous shock, threshold, or instrument. A strong associational design, mechanism boundary, and measurement quality come first.

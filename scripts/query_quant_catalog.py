@@ -10,23 +10,36 @@ from pathlib import Path
 
 CATALOG = Path(__file__).resolve().parents[1] / "data" / "quantitative-reference-catalog.json"
 SYNONYMS = {
-    "劳动": ["就业", "工作", "平台", "灵活就业", "社保", "职业"],
-    "平台": ["数字", "算法", "互联网", "灵活就业"],
-    "不平等": ["阶层", "收入", "财富", "教育", "流动", "住房"],
-    "教育": ["学校", "儿童", "青年", "学历"],
-    "家庭": ["婚姻", "生育", "照护", "代际"],
-    "社会关系": ["社会资本", "网络", "信任", "参与"],
-    "人际关系": ["社会资本", "网络", "信任", "参与"],
-    "健康": ["心理健康", "医疗", "老年", "照护"],
-    "迁移": ["流动人口", "户籍", "城市"],
-    "治理": ["政府", "政策", "公共服务", "社区"],
-    "性别": ["女性", "婚姻", "生育", "照护"],
+    "labor": ["employment", "work", "platform", "flexible employment", "social security", "occupation"],
+    "platform": ["digital", "algorithm", "internet", "flexible employment"],
+    "inequality": ["class", "income", "wealth", "education", "mobility", "housing"],
+    "education": ["school", "children", "youth", "educational attainment"],
+    "family": ["marriage", "fertility", "caregiving", "intergenerational"],
+    "social relations": ["social capital", "network", "trust", "participation"],
+    "interpersonal relations": ["social capital", "network", "trust", "participation"],
+    "health": ["mental health", "healthcare", "older adults", "caregiving"],
+    "migration": ["migrants", "household registration", "urban areas"],
+    "governance": ["government", "policy", "public services", "community"],
+    "gender": ["women", "marriage", "fertility", "caregiving"],
+}
+CHINESE_INPUT_TERMS = {
+    "\u52b3\u52a8": ["labor", "employment", "work", "platform", "flexible employment", "social insurance", "occupation"],
+    "\u5e73\u53f0": ["platform", "digital", "algorithm", "internet", "flexible employment"],
+    "\u4e0d\u5e73\u7b49": ["inequality", "class", "income", "wealth", "education", "mobility", "housing"],
+    "\u6559\u80b2": ["education", "school", "children", "youth", "educational attainment"],
+    "\u5bb6\u5ead": ["family", "marriage", "fertility", "caregiving", "intergenerational"],
+    "\u793e\u4f1a\u5173\u7cfb": ["social relations", "social capital", "network", "trust", "participation"],
+    "\u4eba\u9645\u5173\u7cfb": ["interpersonal relations", "social capital", "network", "trust", "participation"],
+    "\u5065\u5eb7": ["health", "mental health", "healthcare", "older adults", "caregiving"],
+    "\u8fc1\u79fb": ["migration", "migrants", "household registration", "urban areas"],
+    "\u6cbb\u7406": ["governance", "government", "policy", "public services", "community"],
+    "\u6027\u522b": ["gender", "women", "marriage", "fertility", "caregiving"],
 }
 METHOD_BY_AIM = {
-    "描述": ["描述统计与加权比较", "调查设计分析", "重复横截面趋势"],
-    "关联": ["多元线性回归（OLS）", "二元 Logit/Probit", "有序 Logit/Probit", "多层模型", "面板固定效应"],
-    "因果": ["双重差分（2×2）", "分期实施 DiD", "事件研究", "断点回归（RDD）", "工具变量（IV/2SLS）", "倾向得分加权/匹配", "合成控制"],
-    "机制": ["因果中介分析", "结构方程模型（SEM）", "多层模型", "面板固定效应"],
+    "description": ["Descriptive statistics and weighted comparisons", "Survey design analysis", "Repeated cross-sectional trends"],
+    "association": ["Multiple linear regression (OLS)", "Binary Logit/Probit", "Ordered Logit/Probit", "Multilevel models", "Panel fixed effects"],
+    "causal": ["Difference-in-differences (2×2)", "Staggered-adoption DiD", "Event study", "Regression discontinuity (RDD)", "Instrumental variables (IV/2SLS)", "Propensity-score weighting/matching", "Synthetic control"],
+    "mechanism": ["Causal mediation analysis", "Structural equation modeling (SEM)", "Multilevel model", "Panel fixed effects"],
 }
 
 
@@ -36,27 +49,30 @@ def expand(topic: str) -> set[str]:
         if term in topic:
             terms.add(term)
             terms.update(extras)
+    for term, extras in CHINESE_INPUT_TERMS.items():
+        if term in topic:
+            terms.update(extras)
     return terms
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--topic", required=True)
-    parser.add_argument("--aim", choices=["auto", "描述", "关联", "因果", "机制"], default="auto")
+    parser.add_argument("--aim", choices=["auto", "description", "association", "causal", "mechanism"], default="auto")
     parser.add_argument("--limit", type=int, default=40)
     args = parser.parse_args()
     payload = json.loads(CATALOG.read_text(encoding="utf-8"))
     terms = expand(args.topic)
     aim = args.aim
     if aim == "auto":
-        if any(x in args.topic.lower() for x in ("因果", "影响", "效应", "政策", "改革", "冲击")):
-            aim = "因果"
-        elif any(x in args.topic.lower() for x in ("机制", "中介", "路径")):
-            aim = "机制"
-        elif any(x in args.topic.lower() for x in ("趋势", "现状", "分布", "描述")):
-            aim = "描述"
+        if any(x in args.topic.lower() for x in ("causal", "impact", "effect", "policy", "reform", "shock", "\u56e0\u679c", "\u5f71\u54cd", "\u6548\u5e94", "\u653f\u7b56", "\u6539\u9769", "\u51b2\u51fb")):
+            aim = "causal"
+        elif any(x in args.topic.lower() for x in ("mechanism", "mediation", "pathway", "\u673a\u5236", "\u4e2d\u4ecb", "\u8def\u5f84")):
+            aim = "mechanism"
+        elif any(x in args.topic.lower() for x in ("trend", "current status", "distribution", "description", "\u8d8b\u52bf", "\u73b0\u72b6", "\u5206\u5e03", "\u63cf\u8ff0")):
+            aim = "description"
         else:
-            aim = "关联"
+            aim = "association"
     relevant = []
     for row in payload["cards"]:
         topics = set(row.get("topics") or [])
@@ -73,7 +89,7 @@ def main() -> int:
         "recommended_method_cards": method_cards,
         "relevant_measurement_and_dataset_cards": selected,
         "universal_quality_checks": quality_cards,
-        "note": "卡片用于设计与审查，不构成研究结论。因果方法仅在其假设可被实质辩护与诊断支持时采用。",
+        "note": "Cards are for design and review and do not constitute research conclusions. Use causal methods only when their assumptions can be substantively justified and supported by diagnostics.",
     }, ensure_ascii=False, indent=2))
     return 0
 

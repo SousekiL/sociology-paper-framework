@@ -1,2735 +1,2735 @@
 {
   "version": "1.0",
-  "purpose": "量化社会学研究设计、变量测量、数据选择与质量控制的可检索卡片。",
+  "purpose": "Searchable cards for quantitative sociology research design, variable measurement, data selection, and quality control.",
   "card_count": 260,
   "cards": [
     {
       "id": "method:001",
       "group": "method",
-      "label": "描述统计与加权比较",
-      "facet": "适用问题",
-      "text": "样本构成、分布或群体差异是问题核心",
+      "label": "Descriptive statistics and weighted comparisons",
+      "facet": "Applicable question",
+      "text": "Sample composition, distributions, or group differences are central to the question",
       "topics": []
     },
     {
       "id": "method:002",
       "group": "method",
-      "label": "描述统计与加权比较",
-      "facet": "估计对象与结论",
-      "text": "总体/样本的描述性差异",
+      "label": "Descriptive statistics and weighted comparisons",
+      "facet": "Estimand and conclusion",
+      "text": "Descriptive differences in the population/sample",
       "topics": []
     },
     {
       "id": "method:003",
       "group": "method",
-      "label": "描述统计与加权比较",
-      "facet": "关键假设",
-      "text": "抽样设计、权重和缺失报告正确",
+      "label": "Descriptive statistics and weighted comparisons",
+      "facet": "Key assumptions",
+      "text": "Sampling design, weights, and missingness are correctly reported",
       "topics": []
     },
     {
       "id": "method:004",
       "group": "method",
-      "label": "描述统计与加权比较",
-      "facet": "最低诊断",
-      "text": "加权/未加权比较；置信区间；复杂抽样设计",
+      "label": "Descriptive statistics and weighted comparisons",
+      "facet": "Minimum diagnostics",
+      "text": "Weighted/unweighted comparisons; confidence intervals; complex sampling design",
       "topics": []
     },
     {
       "id": "method:005",
       "group": "method",
-      "label": "多元线性回归（OLS）",
-      "facet": "适用问题",
-      "text": "连续结果且目标是条件关联",
+      "label": "Multiple linear regression (OLS)",
+      "facet": "Applicable question",
+      "text": "Continuous outcome with a focus on conditional association",
       "topics": []
     },
     {
       "id": "method:006",
       "group": "method",
-      "label": "多元线性回归（OLS）",
-      "facet": "估计对象与结论",
-      "text": "条件均值差/线性关联",
+      "label": "Multiple linear regression (OLS)",
+      "facet": "Estimand and conclusion",
+      "text": "Conditional mean difference/linear association",
       "topics": []
     },
     {
       "id": "method:007",
       "group": "method",
-      "label": "多元线性回归（OLS）",
-      "facet": "关键假设",
-      "text": "函数形式、独立性、未观测混杂不被解决",
+      "label": "Multiple linear regression (OLS)",
+      "facet": "Key assumptions",
+      "text": "Functional form and independence; unobserved confounding is not resolved",
       "topics": []
     },
     {
       "id": "method:008",
       "group": "method",
-      "label": "多元线性回归（OLS）",
-      "facet": "最低诊断",
-      "text": "残差图；非线性项；稳健/聚类标准误；影响点",
+      "label": "Multiple linear regression (OLS)",
+      "facet": "Minimum diagnostics",
+      "text": "Residual plots; nonlinear terms; robust/clustered standard errors; influential points",
       "topics": []
     },
     {
       "id": "method:009",
       "group": "method",
-      "label": "二元 Logit/Probit",
-      "facet": "适用问题",
-      "text": "二元结果且需要条件概率模型",
+      "label": "Binary Logit/Probit",
+      "facet": "Applicable question",
+      "text": "Binary outcome requiring a conditional probability model",
       "topics": []
     },
     {
       "id": "method:010",
       "group": "method",
-      "label": "二元 Logit/Probit",
-      "facet": "估计对象与结论",
-      "text": "条件概率差异",
+      "label": "Binary Logit/Probit",
+      "facet": "Estimand and conclusion",
+      "text": "Conditional probability differences",
       "topics": []
     },
     {
       "id": "method:011",
       "group": "method",
-      "label": "二元 Logit/Probit",
-      "facet": "关键假设",
-      "text": "链接函数、稀有事件和独立观察",
+      "label": "Binary Logit/Probit",
+      "facet": "Key assumptions",
+      "text": "Link function, rare events, and independent observations",
       "topics": []
     },
     {
       "id": "method:012",
       "group": "method",
-      "label": "二元 Logit/Probit",
-      "facet": "最低诊断",
-      "text": "报告平均边际效应；事件数；预测校准；替代链接",
+      "label": "Binary Logit/Probit",
+      "facet": "Minimum diagnostics",
+      "text": "Report average marginal effects; event counts; predictive calibration; alternative links",
       "topics": []
     },
     {
       "id": "method:013",
       "group": "method",
-      "label": "有序 Logit/Probit",
-      "facet": "适用问题",
-      "text": "有明确顺序的等级结果",
+      "label": "Ordered Logit/Probit",
+      "facet": "Applicable question",
+      "text": "Ordinal outcome with a clear ordering",
       "topics": []
     },
     {
       "id": "method:014",
       "group": "method",
-      "label": "有序 Logit/Probit",
-      "facet": "估计对象与结论",
-      "text": "潜在倾向/类别概率差异",
+      "label": "Ordered Logit/Probit",
+      "facet": "Estimand and conclusion",
+      "text": "Differences in latent propensity/category probabilities",
       "topics": []
     },
     {
       "id": "method:015",
       "group": "method",
-      "label": "有序 Logit/Probit",
-      "facet": "关键假设",
-      "text": "比例优势或平行线假设（若使用 ordered logit）",
+      "label": "Ordered Logit/Probit",
+      "facet": "Key assumptions",
+      "text": "Proportional-odds or parallel-lines assumption (if using ordered logit)",
       "topics": []
     },
     {
       "id": "method:016",
       "group": "method",
-      "label": "有序 Logit/Probit",
-      "facet": "最低诊断",
-      "text": "比例优势检验；广义有序模型；边际效应",
+      "label": "Ordered Logit/Probit",
+      "facet": "Minimum diagnostics",
+      "text": "Proportional-odds test; generalized ordered model; marginal effects",
       "topics": []
     },
     {
       "id": "method:017",
       "group": "method",
-      "label": "多项 Logit",
-      "facet": "适用问题",
-      "text": "无自然顺序的多类别选择",
+      "label": "Multinomial Logit",
+      "facet": "Applicable question",
+      "text": "Multicategory choice without a natural order",
       "topics": []
     },
     {
       "id": "method:018",
       "group": "method",
-      "label": "多项 Logit",
-      "facet": "估计对象与结论",
-      "text": "相对类别选择关联",
+      "label": "Multinomial Logit",
+      "facet": "Estimand and conclusion",
+      "text": "Association with relative category choice",
       "topics": []
     },
     {
       "id": "method:019",
       "group": "method",
-      "label": "多项 Logit",
-      "facet": "关键假设",
-      "text": "IIA 在具体选择场景中合理",
+      "label": "Multinomial Logit",
+      "facet": "Key assumptions",
+      "text": "IIA is reasonable in the specific choice context",
       "topics": []
     },
     {
       "id": "method:020",
       "group": "method",
-      "label": "多项 Logit",
-      "facet": "最低诊断",
-      "text": "替代 IIA 诊断；预测概率；参照组敏感性",
+      "label": "Multinomial Logit",
+      "facet": "Minimum diagnostics",
+      "text": "Alternative IIA diagnostics; predicted probabilities; reference-group sensitivity",
       "topics": []
     },
     {
       "id": "method:021",
       "group": "method",
-      "label": "计数模型（Poisson/负二项）",
-      "facet": "适用问题",
-      "text": "结果是次数或事件数",
+      "label": "Count models (Poisson/negative binomial)",
+      "facet": "Applicable question",
+      "text": "Outcome is a count of occurrences or events",
       "topics": []
     },
     {
       "id": "method:022",
       "group": "method",
-      "label": "计数模型（Poisson/负二项）",
-      "facet": "估计对象与结论",
-      "text": "条件发生率比",
+      "label": "Count models (Poisson/negative binomial)",
+      "facet": "Estimand and conclusion",
+      "text": "Conditional incidence-rate ratio",
       "topics": []
     },
     {
       "id": "method:023",
       "group": "method",
-      "label": "计数模型（Poisson/负二项）",
-      "facet": "关键假设",
-      "text": "均值—方差关系、暴露时间处理",
+      "label": "Count models (Poisson/negative binomial)",
+      "facet": "Key assumptions",
+      "text": "Mean–variance relationship and exposure-time handling",
       "topics": []
     },
     {
       "id": "method:024",
       "group": "method",
-      "label": "计数模型（Poisson/负二项）",
-      "facet": "最低诊断",
-      "text": "过度离散；零膨胀；offset；负二项替代",
+      "label": "Count models (Poisson/negative binomial)",
+      "facet": "Minimum diagnostics",
+      "text": "Overdispersion; zero inflation; offset; negative-binomial alternative",
       "topics": []
     },
     {
       "id": "method:025",
       "group": "method",
-      "label": "两部模型/零膨胀模型",
-      "facet": "适用问题",
-      "text": "零值来自不参与与强度两个过程",
+      "label": "Two-part/zero-inflated models",
+      "facet": "Applicable question",
+      "text": "Zeros arise from separate nonparticipation and intensity processes",
       "topics": []
     },
     {
       "id": "method:026",
       "group": "method",
-      "label": "两部模型/零膨胀模型",
-      "facet": "估计对象与结论",
-      "text": "参与概率与正值条件量",
+      "label": "Two-part/zero-inflated models",
+      "facet": "Estimand and conclusion",
+      "text": "Participation probability and conditional amount among positive values",
       "topics": []
     },
     {
       "id": "method:027",
       "group": "method",
-      "label": "两部模型/零膨胀模型",
-      "facet": "关键假设",
-      "text": "两过程区分有理论依据",
+      "label": "Two-part/zero-inflated models",
+      "facet": "Key assumptions",
+      "text": "The distinction between the two processes has a theoretical basis",
       "topics": []
     },
     {
       "id": "method:028",
       "group": "method",
-      "label": "两部模型/零膨胀模型",
-      "facet": "最低诊断",
-      "text": "与 hurdle/普通 GLM 比较；正值部分残差",
+      "label": "Two-part/zero-inflated models",
+      "facet": "Minimum diagnostics",
+      "text": "Compare with hurdle/ordinary GLM; residuals for the positive-value part",
       "topics": []
     },
     {
       "id": "method:029",
       "group": "method",
-      "label": "分位数回归",
-      "facet": "适用问题",
-      "text": "关注结果分布不同位置的关联",
+      "label": "Quantile regression",
+      "facet": "Applicable question",
+      "text": "Focus on associations at different positions in the outcome distribution",
       "topics": []
     },
     {
       "id": "method:030",
       "group": "method",
-      "label": "分位数回归",
-      "facet": "估计对象与结论",
-      "text": "条件分位数差异",
+      "label": "Quantile regression",
+      "facet": "Estimand and conclusion",
+      "text": "Conditional quantile differences",
       "topics": []
     },
     {
       "id": "method:031",
       "group": "method",
-      "label": "分位数回归",
-      "facet": "关键假设",
-      "text": "分位数解释而非均值解释",
+      "label": "Quantile regression",
+      "facet": "Key assumptions",
+      "text": "Interpretation concerns quantiles rather than means",
       "topics": []
     },
     {
       "id": "method:032",
       "group": "method",
-      "label": "分位数回归",
-      "facet": "最低诊断",
-      "text": "多分位数呈现；bootstrap 标准误；样本尾部支持",
+      "label": "Quantile regression",
+      "facet": "Minimum diagnostics",
+      "text": "Present multiple quantiles; bootstrap standard errors; support in sample tails",
       "topics": []
     },
     {
       "id": "method:033",
       "group": "method",
-      "label": "广义加性模型/样条",
-      "facet": "适用问题",
-      "text": "理论预期非线性但不宜强定函数形式",
+      "label": "Generalized additive models/splines",
+      "facet": "Applicable question",
+      "text": "Theory suggests nonlinearity but does not justify imposing a rigid functional form",
       "topics": []
     },
     {
       "id": "method:034",
       "group": "method",
-      "label": "广义加性模型/样条",
-      "facet": "估计对象与结论",
-      "text": "平滑条件关联",
+      "label": "Generalized additive models/splines",
+      "facet": "Estimand and conclusion",
+      "text": "Smoothed conditional association",
       "topics": []
     },
     {
       "id": "method:035",
       "group": "method",
-      "label": "广义加性模型/样条",
-      "facet": "关键假设",
-      "text": "平滑复杂度控制与外推谨慎",
+      "label": "Generalized additive models/splines",
+      "facet": "Key assumptions",
+      "text": "Control of smoothness complexity and caution with extrapolation",
       "topics": []
     },
     {
       "id": "method:036",
       "group": "method",
-      "label": "广义加性模型/样条",
-      "facet": "最低诊断",
-      "text": "有效自由度；交叉验证；线性模型对照",
+      "label": "Generalized additive models/splines",
+      "facet": "Minimum diagnostics",
+      "text": "Effective degrees of freedom; cross-validation; linear-model comparison",
       "topics": []
     },
     {
       "id": "method:037",
       "group": "method",
-      "label": "多层模型",
-      "facet": "适用问题",
-      "text": "个体嵌套于家庭、学校、社区或地区",
+      "label": "Multilevel models",
+      "facet": "Applicable question",
+      "text": "Individuals are nested in families, schools, communities, or regions",
       "topics": []
     },
     {
       "id": "method:038",
       "group": "method",
-      "label": "多层模型",
-      "facet": "估计对象与结论",
-      "text": "组内/组间关联与方差分解",
+      "label": "Multilevel models",
+      "facet": "Estimand and conclusion",
+      "text": "Within-/between-group associations and variance decomposition",
       "topics": []
     },
     {
       "id": "method:039",
       "group": "method",
-      "label": "多层模型",
-      "facet": "关键假设",
-      "text": "层级设定、组数与随机效应分布",
+      "label": "Multilevel models",
+      "facet": "Key assumptions",
+      "text": "Level specification, number of groups, and random-effects distribution",
       "topics": []
     },
     {
       "id": "method:040",
       "group": "method",
-      "label": "多层模型",
-      "facet": "最低诊断",
-      "text": "ICC；随机斜率；群集数量；固定效应对照",
+      "label": "Multilevel models",
+      "facet": "Minimum diagnostics",
+      "text": "ICC; random slopes; number of clusters; fixed-effects comparison",
       "topics": []
     },
     {
       "id": "method:041",
       "group": "method",
-      "label": "面板固定效应",
-      "facet": "适用问题",
-      "text": "同一单位多期观察且担忧时间不变混杂",
+      "label": "Panel fixed effects",
+      "facet": "Applicable question",
+      "text": "Repeated observations of the same units with concern about time-invariant confounding",
       "topics": []
     },
     {
       "id": "method:042",
       "group": "method",
-      "label": "面板固定效应",
-      "facet": "估计对象与结论",
-      "text": "单位内变化关联",
+      "label": "Panel fixed effects",
+      "facet": "Estimand and conclusion",
+      "text": "Association in within-unit change",
       "topics": []
     },
     {
       "id": "method:043",
       "group": "method",
-      "label": "面板固定效应",
-      "facet": "关键假设",
-      "text": "严格外生性、足够的单位内变异",
+      "label": "Panel fixed effects",
+      "facet": "Key assumptions",
+      "text": "Strict exogeneity and sufficient within-unit variation",
       "topics": []
     },
     {
       "id": "method:044",
       "group": "method",
-      "label": "面板固定效应",
-      "facet": "最低诊断",
-      "text": "单位/时间 FE；聚类；滞后结果；样本流失检查",
+      "label": "Panel fixed effects",
+      "facet": "Minimum diagnostics",
+      "text": "Unit/time FE; clustering; lagged outcomes; attrition checks",
       "topics": []
     },
     {
       "id": "method:045",
       "group": "method",
-      "label": "随机效应/混合模型",
-      "facet": "适用问题",
-      "text": "需要同时估计单位间与单位内变异",
+      "label": "Random effects/mixed models",
+      "facet": "Applicable question",
+      "text": "Need to estimate between-unit and within-unit variation simultaneously",
       "topics": []
     },
     {
       "id": "method:046",
       "group": "method",
-      "label": "随机效应/混合模型",
-      "facet": "估计对象与结论",
-      "text": "条件关联和方差组件",
+      "label": "Random effects/mixed models",
+      "facet": "Estimand and conclusion",
+      "text": "Conditional association and variance components",
       "topics": []
     },
     {
       "id": "method:047",
       "group": "method",
-      "label": "随机效应/混合模型",
-      "facet": "关键假设",
-      "text": "随机效应与解释变量独立（或明确使用 Mundlak）",
+      "label": "Random effects/mixed models",
+      "facet": "Key assumptions",
+      "text": "Random effects are independent of explanatory variables (or Mundlak is explicitly used)",
       "topics": []
     },
     {
       "id": "method:048",
       "group": "method",
-      "label": "随机效应/混合模型",
-      "facet": "最低诊断",
-      "text": "Hausman/Mundlak 对照；随机斜率；残差结构",
+      "label": "Random effects/mixed models",
+      "facet": "Minimum diagnostics",
+      "text": "Hausman/Mundlak comparison; random slopes; residual structure",
       "topics": []
     },
     {
       "id": "method:049",
       "group": "method",
-      "label": "双重差分（2×2）",
-      "facet": "适用问题",
-      "text": "有处理组、对照组和明确前后期",
+      "label": "Difference-in-differences (2×2)",
+      "facet": "Applicable question",
+      "text": "Treatment and control groups with clearly defined pre/post periods",
       "topics": []
     },
     {
       "id": "method:050",
       "group": "method",
-      "label": "双重差分（2×2）",
-      "facet": "估计对象与结论",
-      "text": "处理组的平均处理效应",
+      "label": "Difference-in-differences (2×2)",
+      "facet": "Estimand and conclusion",
+      "text": "Average treatment effect for the treated group",
       "topics": []
     },
     {
       "id": "method:051",
       "group": "method",
-      "label": "双重差分（2×2）",
-      "facet": "关键假设",
-      "text": "平行趋势、无差异性同期冲击、稳定样本构成",
+      "label": "Difference-in-differences (2×2)",
+      "facet": "Key assumptions",
+      "text": "Parallel trends, no differential concurrent shocks, and stable sample composition",
       "topics": []
     },
     {
       "id": "method:052",
       "group": "method",
-      "label": "双重差分（2×2）",
-      "facet": "最低诊断",
-      "text": "事件研究；预趋势；安慰剂时间/组；聚类层级",
+      "label": "Difference-in-differences (2×2)",
+      "facet": "Minimum diagnostics",
+      "text": "Event study; pre-trends; placebo time/group; clustering level",
       "topics": []
     },
     {
       "id": "method:053",
       "group": "method",
-      "label": "分期实施 DiD",
-      "facet": "适用问题",
-      "text": "不同单位在不同时间接受处理",
+      "label": "Staggered-adoption DiD",
+      "facet": "Applicable question",
+      "text": "Different units receive treatment at different times",
       "topics": []
     },
     {
       "id": "method:054",
       "group": "method",
-      "label": "分期实施 DiD",
-      "facet": "估计对象与结论",
-      "text": "分组—时间 ATT",
+      "label": "Staggered-adoption DiD",
+      "facet": "Estimand and conclusion",
+      "text": "Group–time ATT",
       "topics": []
     },
     {
       "id": "method:055",
       "group": "method",
-      "label": "分期实施 DiD",
-      "facet": "关键假设",
-      "text": "使用避免负权重的估计量；平行趋势按队列成立",
+      "label": "Staggered-adoption DiD",
+      "facet": "Key assumptions",
+      "text": "Use an estimator that avoids negative weights; parallel trends hold by cohort",
       "topics": []
     },
     {
       "id": "method:056",
       "group": "method",
-      "label": "分期实施 DiD",
-      "facet": "最低诊断",
-      "text": "Sun-Abraham/Callaway-Sant'Anna；队列图；权重披露",
+      "label": "Staggered-adoption DiD",
+      "facet": "Minimum diagnostics",
+      "text": "Sun-Abraham/Callaway-Sant'Anna; cohort plots; disclose weights",
       "topics": []
     },
     {
       "id": "method:057",
       "group": "method",
-      "label": "事件研究",
-      "facet": "适用问题",
-      "text": "需要展示干预前后动态路径",
+      "label": "Event study",
+      "facet": "Applicable question",
+      "text": "Need to show dynamic paths before and after an intervention",
       "topics": []
     },
     {
       "id": "method:058",
       "group": "method",
-      "label": "事件研究",
-      "facet": "估计对象与结论",
-      "text": "相对事件时间效应",
+      "label": "Event study",
+      "facet": "Estimand and conclusion",
+      "text": "Relative event-time effects",
       "topics": []
     },
     {
       "id": "method:059",
       "group": "method",
-      "label": "事件研究",
-      "facet": "关键假设",
-      "text": "事件时间定义、无提前反应和可比趋势",
+      "label": "Event study",
+      "facet": "Key assumptions",
+      "text": "Event-time definition, no anticipation, and comparable trends",
       "topics": []
     },
     {
       "id": "method:060",
       "group": "method",
-      "label": "事件研究",
-      "facet": "最低诊断",
-      "text": "系数图与置信区间；窗口敏感性；堆叠设计",
+      "label": "Event study",
+      "facet": "Minimum diagnostics",
+      "text": "Coefficient plots with confidence intervals; window sensitivity; stacked design",
       "topics": []
     },
     {
       "id": "method:061",
       "group": "method",
-      "label": "断点回归（RDD）",
-      "facet": "适用问题",
-      "text": "处理由明确阈值的连续运行变量决定",
+      "label": "Regression discontinuity design (RDD)",
+      "facet": "Applicable question",
+      "text": "Treatment is determined by a continuous running variable crossing a clear threshold",
       "topics": []
     },
     {
       "id": "method:062",
       "group": "method",
-      "label": "断点回归（RDD）",
-      "facet": "估计对象与结论",
-      "text": "阈值处局部效应",
+      "label": "Regression discontinuity design (RDD)",
+      "facet": "Estimand and conclusion",
+      "text": "Local effect at the threshold",
       "topics": []
     },
     {
       "id": "method:063",
       "group": "method",
-      "label": "断点回归（RDD）",
-      "facet": "关键假设",
-      "text": "阈值附近潜在结果连续、无精确操纵",
+      "label": "Regression discontinuity design (RDD)",
+      "facet": "Key assumptions",
+      "text": "Potential outcomes are continuous near the threshold; no precise manipulation",
       "topics": []
     },
     {
       "id": "method:064",
       "group": "method",
-      "label": "断点回归（RDD）",
-      "facet": "最低诊断",
-      "text": "密度检验；协变量平衡；带宽/阶数敏感性；donut",
+      "label": "Regression discontinuity design (RDD)",
+      "facet": "Minimum diagnostics",
+      "text": "Density test; covariate balance; bandwidth/order sensitivity; donut",
       "topics": []
     },
     {
       "id": "method:065",
       "group": "method",
-      "label": "工具变量（IV/2SLS）",
-      "facet": "适用问题",
-      "text": "存在强相关且可辩护的外生工具",
+      "label": "Instrumental variables (IV/2SLS)",
+      "facet": "Applicable question",
+      "text": "A strongly relevant and defensible exogenous instrument exists",
       "topics": []
     },
     {
       "id": "method:066",
       "group": "method",
-      "label": "工具变量（IV/2SLS）",
-      "facet": "估计对象与结论",
-      "text": "局部平均处理效应（LATE）",
+      "label": "Instrumental variables (IV/2SLS)",
+      "facet": "Estimand and conclusion",
+      "text": "Local average treatment effect (LATE)",
       "topics": []
     },
     {
       "id": "method:067",
       "group": "method",
-      "label": "工具变量（IV/2SLS）",
-      "facet": "关键假设",
-      "text": "相关性、排除限制、单调性",
+      "label": "Instrumental variables (IV/2SLS)",
+      "facet": "Key assumptions",
+      "text": "Relevance, exclusion restriction, and monotonicity",
       "topics": []
     },
     {
       "id": "method:068",
       "group": "method",
-      "label": "工具变量（IV/2SLS）",
-      "facet": "最低诊断",
-      "text": "第一阶段 F/弱工具稳健区间；机制反驳；工具平衡",
+      "label": "Instrumental variables (IV/2SLS)",
+      "facet": "Minimum diagnostics",
+      "text": "First-stage F/weak-instrument robust intervals; mechanism rebuttals; instrument balance",
       "topics": []
     },
     {
       "id": "method:069",
       "group": "method",
-      "label": "倾向得分加权/匹配",
-      "facet": "适用问题",
-      "text": "观察数据中可在可观测协变量上构造可比组",
+      "label": "Propensity-score weighting/matching",
+      "facet": "Applicable question",
+      "text": "Comparable groups can be constructed on observed covariates in observational data",
       "topics": []
     },
     {
       "id": "method:070",
       "group": "method",
-      "label": "倾向得分加权/匹配",
-      "facet": "估计对象与结论",
-      "text": "可观测选择下的 ATT/ATE",
+      "label": "Propensity-score weighting/matching",
+      "facet": "Estimand and conclusion",
+      "text": "ATT/ATE under selection on observables",
       "topics": []
     },
     {
       "id": "method:071",
       "group": "method",
-      "label": "倾向得分加权/匹配",
-      "facet": "关键假设",
-      "text": "可忽略性、重叠性、模型设定",
+      "label": "Propensity-score weighting/matching",
+      "facet": "Key assumptions",
+      "text": "Ignorability, overlap, and model specification",
       "topics": []
     },
     {
       "id": "method:072",
       "group": "method",
-      "label": "倾向得分加权/匹配",
-      "facet": "最低诊断",
-      "text": "标准化差异；共同支持；截尾；双重稳健估计",
+      "label": "Propensity-score weighting/matching",
+      "facet": "Minimum diagnostics",
+      "text": "Standardized differences; common support; trimming; doubly robust estimation",
       "topics": []
     },
     {
       "id": "method:073",
       "group": "method",
-      "label": "合成控制",
-      "facet": "适用问题",
-      "text": "少数处理单位和长处理前时期",
+      "label": "Synthetic control",
+      "facet": "Applicable question",
+      "text": "Few treated units and a long pre-treatment period",
       "topics": []
     },
     {
       "id": "method:074",
       "group": "method",
-      "label": "合成控制",
-      "facet": "估计对象与结论",
-      "text": "处理单位相对合成反事实的效应",
+      "label": "Synthetic control",
+      "facet": "Estimand and conclusion",
+      "text": "Effect for the treated unit relative to its synthetic counterfactual",
       "topics": []
     },
     {
       "id": "method:075",
       "group": "method",
-      "label": "合成控制",
-      "facet": "关键假设",
-      "text": "供体池可比、处理前拟合可信、无溢出",
+      "label": "Synthetic control",
+      "facet": "Key assumptions",
+      "text": "Comparable donor pool, credible pre-treatment fit, and no spillovers",
       "topics": []
     },
     {
       "id": "method:076",
       "group": "method",
-      "label": "合成控制",
-      "facet": "最低诊断",
-      "text": "处理前 RMSPE；置换检验；供体/预测变量敏感性",
+      "label": "Synthetic control",
+      "facet": "Minimum diagnostics",
+      "text": "Pre-treatment RMSPE; placebo tests; donor/predictor sensitivity",
       "topics": []
     },
     {
       "id": "method:077",
       "group": "method",
-      "label": "生存/风险模型",
-      "facet": "适用问题",
-      "text": "关心事件发生时间且存在删失",
+      "label": "Survival/hazard models",
+      "facet": "Applicable question",
+      "text": "Interest lies in time to event with censoring",
       "topics": []
     },
     {
       "id": "method:078",
       "group": "method",
-      "label": "生存/风险模型",
-      "facet": "估计对象与结论",
-      "text": "风险率/存活时间关联",
+      "label": "Survival/hazard models",
+      "facet": "Estimand and conclusion",
+      "text": "Association with hazard rate/survival time",
       "topics": []
     },
     {
       "id": "method:079",
       "group": "method",
-      "label": "生存/风险模型",
-      "facet": "关键假设",
-      "text": "删失机制、比例风险（若 Cox）",
+      "label": "Survival/hazard models",
+      "facet": "Key assumptions",
+      "text": "Censoring mechanism and proportional hazards (if Cox)",
       "topics": []
     },
     {
       "id": "method:080",
       "group": "method",
-      "label": "生存/风险模型",
-      "facet": "最低诊断",
-      "text": "Kaplan–Meier；PH 检验；竞争风险；时间变系数",
+      "label": "Survival/hazard models",
+      "facet": "Minimum diagnostics",
+      "text": "Kaplan–Meier; PH test; competing risks; time-varying coefficients",
       "topics": []
     },
     {
       "id": "method:081",
       "group": "method",
-      "label": "潜在增长/轨迹模型",
-      "facet": "适用问题",
-      "text": "关心个体结果随时间的变化形态",
+      "label": "Latent growth/trajectory models",
+      "facet": "Applicable question",
+      "text": "Interest lies in how individual outcomes change over time",
       "topics": []
     },
     {
       "id": "method:082",
       "group": "method",
-      "label": "潜在增长/轨迹模型",
-      "facet": "估计对象与结论",
-      "text": "平均增长与异质轨迹",
+      "label": "Latent growth/trajectory models",
+      "facet": "Estimand and conclusion",
+      "text": "Average growth and heterogeneous trajectories",
       "topics": []
     },
     {
       "id": "method:083",
       "group": "method",
-      "label": "潜在增长/轨迹模型",
-      "facet": "关键假设",
-      "text": "测量时间和轨迹类别具有实质解释",
+      "label": "Latent growth/trajectory models",
+      "facet": "Key assumptions",
+      "text": "Measurement timing and trajectory classes have substantive interpretations",
       "topics": []
     },
     {
       "id": "method:084",
       "group": "method",
-      "label": "潜在增长/轨迹模型",
-      "facet": "最低诊断",
-      "text": "类别数敏感性；熵；后验分类不确定性；替代函数",
+      "label": "Latent growth/trajectory models",
+      "facet": "Minimum diagnostics",
+      "text": "Sensitivity to number of classes; entropy; posterior classification uncertainty; alternative functions",
       "topics": []
     },
     {
       "id": "method:085",
       "group": "method",
-      "label": "结构方程模型（SEM）",
-      "facet": "适用问题",
-      "text": "理论包含多条路径或潜变量",
+      "label": "Structural equation modeling (SEM)",
+      "facet": "Applicable question",
+      "text": "Theory includes multiple paths or latent variables",
       "topics": []
     },
     {
       "id": "method:086",
       "group": "method",
-      "label": "结构方程模型（SEM）",
-      "facet": "估计对象与结论",
-      "text": "预设路径/潜变量关系",
+      "label": "Structural equation modeling (SEM)",
+      "facet": "Estimand and conclusion",
+      "text": "Prespecified path/latent-variable relationships",
       "topics": []
     },
     {
       "id": "method:087",
       "group": "method",
-      "label": "结构方程模型（SEM）",
-      "facet": "关键假设",
-      "text": "测量模型有效、识别充分、模型结构有理论先验",
+      "label": "Structural equation modeling (SEM)",
+      "facet": "Key assumptions",
+      "text": "Valid measurement model, sufficient identification, and theoretically grounded structure",
       "topics": []
     },
     {
       "id": "method:088",
       "group": "method",
-      "label": "结构方程模型（SEM）",
-      "facet": "最低诊断",
-      "text": "CFI/TLI/RMSEA/SRMR；替代模型；测量不变性",
+      "label": "Structural equation modeling (SEM)",
+      "facet": "Minimum diagnostics",
+      "text": "CFI/TLI/RMSEA/SRMR; alternative models; measurement invariance",
       "topics": []
     },
     {
       "id": "method:089",
       "group": "method",
-      "label": "因果中介分析",
-      "facet": "适用问题",
-      "text": "处理—中介—结果顺序与机制证据可被测量",
+      "label": "Causal mediation analysis",
+      "facet": "Applicable question",
+      "text": "The treatment–mediator–outcome sequence and mechanism evidence can be measured",
       "topics": []
     },
     {
       "id": "method:090",
       "group": "method",
-      "label": "因果中介分析",
-      "facet": "估计对象与结论",
-      "text": "自然直接/间接效应（严格假设下）",
+      "label": "Causal mediation analysis",
+      "facet": "Estimand and conclusion",
+      "text": "Natural direct/indirect effects (under strict assumptions)",
       "topics": []
     },
     {
       "id": "method:091",
       "group": "method",
-      "label": "因果中介分析",
-      "facet": "关键假设",
-      "text": "顺序可忽略性、无处理后中介—结果混杂",
+      "label": "Causal mediation analysis",
+      "facet": "Key assumptions",
+      "text": "Sequential ignorability and no post-treatment mediator–outcome confounding",
       "topics": []
     },
     {
       "id": "method:092",
       "group": "method",
-      "label": "因果中介分析",
-      "facet": "最低诊断",
-      "text": "敏感性分析；时间顺序；中介替代测量",
+      "label": "Causal mediation analysis",
+      "facet": "Minimum diagnostics",
+      "text": "Sensitivity analysis; temporal ordering; alternative mediator measures",
       "topics": []
     },
     {
       "id": "method:093",
       "group": "method",
-      "label": "多重插补（MICE）",
-      "facet": "适用问题",
-      "text": "缺失可在观测信息条件下视为 MAR",
+      "label": "Multiple imputation (MICE)",
+      "facet": "Applicable question",
+      "text": "Missingness can be regarded as MAR conditional on observed information",
       "topics": []
     },
     {
       "id": "method:094",
       "group": "method",
-      "label": "多重插补（MICE）",
-      "facet": "估计对象与结论",
-      "text": "减少缺失导致的偏差/效率损失",
+      "label": "Multiple imputation (MICE)",
+      "facet": "Estimand and conclusion",
+      "text": "Reduced bias/efficiency loss due to missingness",
       "topics": []
     },
     {
       "id": "method:095",
       "group": "method",
-      "label": "多重插补（MICE）",
-      "facet": "关键假设",
-      "text": "插补模型包含分析变量和缺失预测变量",
+      "label": "Multiple imputation (MICE)",
+      "facet": "Key assumptions",
+      "text": "Imputation model includes analysis variables and predictors of missingness",
       "topics": []
     },
     {
       "id": "method:096",
       "group": "method",
-      "label": "多重插补（MICE）",
-      "facet": "最低诊断",
-      "text": "缺失模式；插补次数；complete-case 对照；MNAR 敏感性",
+      "label": "Multiple imputation (MICE)",
+      "facet": "Minimum diagnostics",
+      "text": "Missingness patterns; number of imputations; complete-case comparison; MNAR sensitivity",
       "topics": []
     },
     {
       "id": "method:097",
       "group": "method",
-      "label": "调查设计分析",
-      "facet": "适用问题",
-      "text": "复杂抽样调查有分层、聚类或权重",
+      "label": "Survey design analysis",
+      "facet": "Applicable question",
+      "text": "Complex sample surveys include stratification, clustering, or weights",
       "topics": []
     },
     {
       "id": "method:098",
       "group": "method",
-      "label": "调查设计分析",
-      "facet": "估计对象与结论",
-      "text": "目标总体的描述/关联",
+      "label": "Survey design analysis",
+      "facet": "Estimand and conclusion",
+      "text": "Population-level description/association",
       "topics": []
     },
     {
       "id": "method:099",
       "group": "method",
-      "label": "调查设计分析",
-      "facet": "关键假设",
-      "text": "权重、PSU、分层变量与有限总体校正正确",
+      "label": "Survey design analysis",
+      "facet": "Key assumptions",
+      "text": "Weights, PSUs, strata, and finite-population corrections are correctly specified",
       "topics": []
     },
     {
       "id": "method:100",
       "group": "method",
-      "label": "调查设计分析",
-      "facet": "最低诊断",
-      "text": "design effect；加权分布；权重修剪敏感性",
+      "label": "Survey design analysis",
+      "facet": "Minimum diagnostics",
+      "text": "Design effect; weighted distributions; sensitivity to weight trimming",
       "topics": []
     },
     {
       "id": "method:101",
       "group": "method",
-      "label": "空间回归",
-      "facet": "适用问题",
-      "text": "地理邻近可能造成相关或溢出",
+      "label": "Spatial regression",
+      "facet": "Applicable question",
+      "text": "Geographic proximity may generate correlation or spillovers",
       "topics": []
     },
     {
       "id": "method:102",
       "group": "method",
-      "label": "空间回归",
-      "facet": "估计对象与结论",
-      "text": "空间依赖调整后的关联/效应",
+      "label": "Spatial regression",
+      "facet": "Estimand and conclusion",
+      "text": "Association/effect adjusted for spatial dependence",
       "topics": []
     },
     {
       "id": "method:103",
       "group": "method",
-      "label": "空间回归",
-      "facet": "关键假设",
-      "text": "空间权重矩阵和尺度有实质依据",
+      "label": "Spatial regression",
+      "facet": "Key assumptions",
+      "text": "Spatial weight matrix and scale have substantive justification",
       "topics": []
     },
     {
       "id": "method:104",
       "group": "method",
-      "label": "空间回归",
-      "facet": "最低诊断",
-      "text": "Moran's I；不同矩阵；残差空间相关；边界敏感性",
+      "label": "Spatial regression",
+      "facet": "Minimum diagnostics",
+      "text": "Moran's I; alternative matrices; residual spatial correlation; boundary sensitivity",
       "topics": []
     },
     {
       "id": "method:105",
       "group": "method",
-      "label": "网络分析",
-      "facet": "适用问题",
-      "text": "关系结构本身是解释变量或结果",
+      "label": "Network analysis",
+      "facet": "Applicable question",
+      "text": "The relational structure itself is an explanatory variable or outcome",
       "topics": []
     },
     {
       "id": "method:106",
       "group": "method",
-      "label": "网络分析",
-      "facet": "估计对象与结论",
-      "text": "网络位置/形成机制",
+      "label": "Network analysis",
+      "facet": "Estimand and conclusion",
+      "text": "Network position/formation mechanisms",
       "topics": []
     },
     {
       "id": "method:107",
       "group": "method",
-      "label": "网络分析",
-      "facet": "关键假设",
-      "text": "网络边界、缺失节点和依赖结构处理",
+      "label": "Network analysis",
+      "facet": "Key assumptions",
+      "text": "Network boundaries, missing nodes, and dependence structure are handled",
       "topics": []
     },
     {
       "id": "method:108",
       "group": "method",
-      "label": "网络分析",
-      "facet": "最低诊断",
-      "text": "网络描述；置换/ERGM 诊断；边界替代",
+      "label": "Network analysis",
+      "facet": "Minimum diagnostics",
+      "text": "Network description; permutation/ERGM diagnostics; alternative boundaries",
       "topics": []
     },
     {
       "id": "method:109",
       "group": "method",
-      "label": "文本即数据",
-      "facet": "适用问题",
-      "text": "大量文本可测量分类、框架或情感",
+      "label": "Text as data",
+      "facet": "Applicable question",
+      "text": "Large volumes of text can measure categories, frames, or sentiment",
       "topics": []
     },
     {
       "id": "method:110",
       "group": "method",
-      "label": "文本即数据",
-      "facet": "估计对象与结论",
-      "text": "文本特征与社会结果的描述/关联",
+      "label": "Text as data",
+      "facet": "Estimand and conclusion",
+      "text": "Description/association between text features and social outcomes",
       "topics": []
     },
     {
       "id": "method:111",
       "group": "method",
-      "label": "文本即数据",
-      "facet": "关键假设",
-      "text": "语料代表性、预处理和标注有效性",
+      "label": "Text as data",
+      "facet": "Key assumptions",
+      "text": "Corpus representativeness, preprocessing, and annotation validity",
       "topics": []
     },
     {
       "id": "method:112",
       "group": "method",
-      "label": "文本即数据",
-      "facet": "最低诊断",
-      "text": "人工标注一致性；词典/模型稳健性；时间漂移",
+      "label": "Text as data",
+      "facet": "Minimum diagnostics",
+      "text": "Human-annotation agreement; dictionary/model robustness; temporal drift",
       "topics": []
     },
     {
       "id": "method:113",
       "group": "method",
-      "label": "重复横截面趋势",
-      "facet": "适用问题",
-      "text": "不同年份样本可比但非同一受访者",
+      "label": "Repeated cross-sectional trends",
+      "facet": "Applicable question",
+      "text": "Samples from different years are comparable but do not include the same respondents",
       "topics": []
     },
     {
       "id": "method:114",
       "group": "method",
-      "label": "重复横截面趋势",
-      "facet": "估计对象与结论",
-      "text": "群体水平趋势与关联变化",
+      "label": "Repeated cross-sectional trends",
+      "facet": "Estimand and conclusion",
+      "text": "Population-level trends and changes in associations",
       "topics": []
     },
     {
       "id": "method:115",
       "group": "method",
-      "label": "重复横截面趋势",
-      "facet": "关键假设",
-      "text": "问卷、抽样、权重与变量口径可比",
+      "label": "Repeated cross-sectional trends",
+      "facet": "Key assumptions",
+      "text": "Questionnaire, sampling, weights, and variable definitions are comparable",
       "topics": []
     },
     {
       "id": "method:116",
       "group": "method",
-      "label": "重复横截面趋势",
-      "facet": "最低诊断",
-      "text": "测量等值；年份交互；样本构成标准化",
+      "label": "Repeated cross-sectional trends",
+      "facet": "Minimum diagnostics",
+      "text": "Measurement equivalence; year interactions; standardize sample composition",
       "topics": []
     },
     {
       "id": "measurement:117",
       "group": "measurement",
-      "label": "社会经济地位/阶层",
-      "facet": "候选指标",
-      "text": "教育年限/学历；职业地位指数或职业类别；家庭收入/财富分位",
+      "label": "Socioeconomic status/class",
+      "facet": "Candidate indicators",
+      "text": "Years of education/educational attainment;Occupational status index or occupational category;Household income/wealth percentile",
       "topics": [
-        "阶层",
-        "不平等",
-        "教育",
-        "工作",
-        "收入"
+        "class",
+        "inequality",
+        "education",
+        "work",
+        "income"
       ]
     },
     {
       "id": "measurement:118",
       "group": "measurement",
-      "label": "社会经济地位/阶层",
-      "facet": "主编码规则",
-      "text": "以理论优先确定单维或多维指数；收入常取对数并按家庭规模等价化",
+      "label": "Socioeconomic status/class",
+      "facet": "Primary coding rules",
+      "text": "Use theory to determine whether a unidimensional or multidimensional index is appropriate; income is often logged and equivalized by household size",
       "topics": [
-        "阶层",
-        "不平等",
-        "教育",
-        "工作",
-        "收入"
+        "class",
+        "inequality",
+        "education",
+        "work",
+        "income"
       ]
     },
     {
       "id": "measurement:119",
       "group": "measurement",
-      "label": "社会经济地位/阶层",
-      "facet": "测量警告",
-      "text": "不要把教育、职业、收入机械相加；报告每一维与指数的敏感性",
+      "label": "Socioeconomic status/class",
+      "facet": "Measurement warnings",
+      "text": "Do not mechanically add education, occupation, and income; report the sensitivity of each dimension and the index",
       "topics": [
-        "阶层",
-        "不平等",
-        "教育",
-        "工作",
-        "收入"
+        "class",
+        "inequality",
+        "education",
+        "work",
+        "income"
       ]
     },
     {
       "id": "measurement:120",
       "group": "measurement",
-      "label": "社会经济地位/阶层",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Socioeconomic status/class",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "阶层",
-        "不平等",
-        "教育",
-        "工作",
-        "收入"
+        "class",
+        "inequality",
+        "education",
+        "work",
+        "income"
       ]
     },
     {
       "id": "measurement:121",
       "group": "measurement",
-      "label": "个人可支配收入",
-      "facet": "候选指标",
-      "text": "税后年/月底收入；家庭等价收入；收入分位或贫困线以下",
+      "label": "Disposable personal income",
+      "facet": "Candidate indicators",
+      "text": "Annual/monthly after-tax income;Equivalized household income;Income percentile or below-poverty-line status",
       "topics": [
-        "收入",
-        "贫困",
-        "不平等",
-        "家庭"
+        "income",
+        "poverty",
+        "inequality",
+        "family"
       ]
     },
     {
       "id": "measurement:122",
       "group": "measurement",
-      "label": "个人可支配收入",
-      "facet": "主编码规则",
-      "text": "处理零/负值；注明币值、时间单位、价格平减和等价尺度",
+      "label": "Disposable personal income",
+      "facet": "Primary coding rules",
+      "text": "Handle zero/negative values; specify currency, time unit, price deflation, and equivalence scale",
       "topics": [
-        "收入",
-        "贫困",
-        "不平等",
-        "家庭"
+        "income",
+        "poverty",
+        "inequality",
+        "family"
       ]
     },
     {
       "id": "measurement:123",
       "group": "measurement",
-      "label": "个人可支配收入",
-      "facet": "测量警告",
-      "text": "右偏严重时比较 log、IHS 与分位数；收入缺失通常非随机",
+      "label": "Disposable personal income",
+      "facet": "Measurement warnings",
+      "text": "When right skew is severe, compare log, IHS, and quantile specifications; income missingness is usually nonrandom",
       "topics": [
-        "收入",
-        "贫困",
-        "不平等",
-        "家庭"
+        "income",
+        "poverty",
+        "inequality",
+        "family"
       ]
     },
     {
       "id": "measurement:124",
       "group": "measurement",
-      "label": "个人可支配收入",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Disposable personal income",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "收入",
-        "贫困",
-        "不平等",
-        "家庭"
+        "income",
+        "poverty",
+        "inequality",
+        "family"
       ]
     },
     {
       "id": "measurement:125",
       "group": "measurement",
-      "label": "家庭财富/债务",
-      "facet": "候选指标",
-      "text": "净资产；金融资产；负债收入比",
+      "label": "Household wealth/debt",
+      "facet": "Candidate indicators",
+      "text": "Net assets;Financial assets;Debt-to-income ratio",
       "topics": [
-        "财富",
-        "债务",
-        "家庭",
-        "不平等",
-        "住房"
+        "wealth",
+        "debt",
+        "family",
+        "inequality",
+        "housing"
       ]
     },
     {
       "id": "measurement:126",
       "group": "measurement",
-      "label": "家庭财富/债务",
-      "facet": "主编码规则",
-      "text": "资产减债务；零和负值不可直接 log",
+      "label": "Household wealth/debt",
+      "facet": "Primary coding rules",
+      "text": "Assets minus debt; zero and negative values cannot be logged directly",
       "topics": [
-        "财富",
-        "债务",
-        "家庭",
-        "不平等",
-        "住房"
+        "wealth",
+        "debt",
+        "family",
+        "inequality",
+        "housing"
       ]
     },
     {
       "id": "measurement:127",
       "group": "measurement",
-      "label": "家庭财富/债务",
-      "facet": "测量警告",
-      "text": "高端截尾会改变不平等结论；须报告是否包含住房与经营资产",
+      "label": "Household wealth/debt",
+      "facet": "Measurement warnings",
+      "text": "Top-coding can change inequality conclusions; report whether housing and business assets are included",
       "topics": [
-        "财富",
-        "债务",
-        "家庭",
-        "不平等",
-        "住房"
+        "wealth",
+        "debt",
+        "family",
+        "inequality",
+        "housing"
       ]
     },
     {
       "id": "measurement:128",
       "group": "measurement",
-      "label": "家庭财富/债务",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Household wealth/debt",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "财富",
-        "债务",
-        "家庭",
-        "不平等",
-        "住房"
+        "wealth",
+        "debt",
+        "family",
+        "inequality",
+        "housing"
       ]
     },
     {
       "id": "measurement:129",
       "group": "measurement",
-      "label": "就业状态",
-      "facet": "候选指标",
-      "text": "就业/失业/非劳动力；正式/非正式；全职/非全职",
+      "label": "Employment status",
+      "facet": "Candidate indicators",
+      "text": "Employed/unemployed/out of the labor force;Formal/informal;Full-time/non-full-time",
       "topics": [
-        "就业",
-        "劳动",
-        "失业",
-        "工作"
+        "employment",
+        "labor",
+        "unemployment",
+        "work"
       ]
     },
     {
       "id": "measurement:130",
       "group": "measurement",
-      "label": "就业状态",
-      "facet": "主编码规则",
-      "text": "明确劳动年龄、参考周/月与失业定义；多类别保留原始分类",
+      "label": "Employment status",
+      "facet": "Primary coding rules",
+      "text": "Specify working-age population, reference week/month, and unemployment definition; retain the original multicategory classification",
       "topics": [
-        "就业",
-        "劳动",
-        "失业",
-        "工作"
+        "employment",
+        "labor",
+        "unemployment",
+        "work"
       ]
     },
     {
       "id": "measurement:131",
       "group": "measurement",
-      "label": "就业状态",
-      "facet": "测量警告",
-      "text": "不要把学生、退休者和失业者混为非就业；注意选择进入劳动力市场",
+      "label": "Employment status",
+      "facet": "Measurement warnings",
+      "text": "Do not combine students, retirees, and unemployed people into nonemployment; note selection into the labor market",
       "topics": [
-        "就业",
-        "劳动",
-        "失业",
-        "工作"
+        "employment",
+        "labor",
+        "unemployment",
+        "work"
       ]
     },
     {
       "id": "measurement:132",
       "group": "measurement",
-      "label": "就业状态",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Employment status",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "就业",
-        "劳动",
-        "失业",
-        "工作"
+        "employment",
+        "labor",
+        "unemployment",
+        "work"
       ]
     },
     {
       "id": "measurement:133",
       "group": "measurement",
-      "label": "工作质量",
-      "facet": "候选指标",
-      "text": "合同/社保覆盖；工时与加班；工资、稳定性、控制权",
+      "label": "Job quality",
+      "facet": "Candidate indicators",
+      "text": "Contract/social-insurance coverage;Working hours and overtime;Pay, stability, and control",
       "topics": [
-        "劳动",
-        "平台",
-        "工作",
-        "社保"
+        "labor",
+        "platform",
+        "work",
+        "social insurance"
       ]
     },
     {
       "id": "measurement:134",
       "group": "measurement",
-      "label": "工作质量",
-      "facet": "主编码规则",
-      "text": "可做理论驱动的维度指数，或分别估计避免掩盖权衡",
+      "label": "Job quality",
+      "facet": "Primary coding rules",
+      "text": "Use a theory-driven dimensional index or estimate dimensions separately to avoid masking trade-offs",
       "topics": [
-        "劳动",
-        "平台",
-        "工作",
-        "社保"
+        "labor",
+        "platform",
+        "work",
+        "social insurance"
       ]
     },
     {
       "id": "measurement:135",
       "group": "measurement",
-      "label": "工作质量",
-      "facet": "测量警告",
-      "text": "平台劳动应单列算法控制、订单波动与多平台工作",
+      "label": "Job quality",
+      "facet": "Measurement warnings",
+      "text": "For platform work, separately capture algorithmic control, order volatility, and multi-platform work",
       "topics": [
-        "劳动",
-        "平台",
-        "工作",
-        "社保"
+        "labor",
+        "platform",
+        "work",
+        "social insurance"
       ]
     },
     {
       "id": "measurement:136",
       "group": "measurement",
-      "label": "工作质量",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Job quality",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "劳动",
-        "平台",
-        "工作",
-        "社保"
+        "labor",
+        "platform",
+        "work",
+        "social insurance"
       ]
     },
     {
       "id": "measurement:137",
       "group": "measurement",
-      "label": "职业地位",
-      "facet": "候选指标",
-      "text": "ISCO/CASMIN/ESeC 类别；职业声望/地位分数；管理/专业岗位",
+      "label": "Occupational status",
+      "facet": "Candidate indicators",
+      "text": "ISCO/CASMIN/ESeC categories;Occupational prestige/status score;Managerial/professional positions",
       "topics": [
-        "职业",
-        "阶层",
-        "流动",
-        "工作"
+        "occupation",
+        "class",
+        "mobility",
+        "work"
       ]
     },
     {
       "id": "measurement:138",
       "group": "measurement",
-      "label": "职业地位",
-      "facet": "主编码规则",
-      "text": "保留职业代码到可复现层级并说明映射版本",
+      "label": "Occupational status",
+      "facet": "Primary coding rules",
+      "text": "Retain occupational codes at a reproducible level and document the mapping version",
       "topics": [
-        "职业",
-        "阶层",
-        "流动",
-        "工作"
+        "occupation",
+        "class",
+        "mobility",
+        "work"
       ]
     },
     {
       "id": "measurement:139",
       "group": "measurement",
-      "label": "职业地位",
-      "facet": "测量警告",
-      "text": "职业分类跨年份/国家可比性有限；不能用主观自评替代客观职业位置而不说明",
+      "label": "Occupational status",
+      "facet": "Measurement warnings",
+      "text": "Occupational classifications have limited cross-year/country comparability; do not substitute subjective self-assessment for objective occupational position without explanation",
       "topics": [
-        "职业",
-        "阶层",
-        "流动",
-        "工作"
+        "occupation",
+        "class",
+        "mobility",
+        "work"
       ]
     },
     {
       "id": "measurement:140",
       "group": "measurement",
-      "label": "职业地位",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Occupational status",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "职业",
-        "阶层",
-        "流动",
-        "工作"
+        "occupation",
+        "class",
+        "mobility",
+        "work"
       ]
     },
     {
       "id": "measurement:141",
       "group": "measurement",
-      "label": "教育获得",
-      "facet": "候选指标",
-      "text": "最高学历；受教育年限；是否完成关键教育阶段",
+      "label": "Educational attainment",
+      "facet": "Candidate indicators",
+      "text": "Highest qualification;Years of schooling;Completion of key educational stages",
       "topics": [
-        "教育",
-        "阶层",
-        "青年",
-        "流动"
+        "education",
+        "class",
+        "youth",
+        "mobility"
       ]
     },
     {
       "id": "measurement:142",
       "group": "measurement",
-      "label": "教育获得",
-      "facet": "主编码规则",
-      "text": "优先按教育制度映射；跨代/跨地区比较时兼报分类与年限",
+      "label": "Educational attainment",
+      "facet": "Primary coding rules",
+      "text": "Prefer mappings based on the education system; for intergenerational/cross-regional comparisons, report both categories and years",
       "topics": [
-        "教育",
-        "阶层",
-        "青年",
-        "流动"
+        "education",
+        "class",
+        "youth",
+        "mobility"
       ]
     },
     {
       "id": "measurement:143",
       "group": "measurement",
-      "label": "教育获得",
-      "facet": "测量警告",
-      "text": "教育扩张使同一学历的相对地位变化；考虑出生队列",
+      "label": "Educational attainment",
+      "facet": "Measurement warnings",
+      "text": "Educational expansion changes the relative status of the same qualification; consider birth cohorts",
       "topics": [
-        "教育",
-        "阶层",
-        "青年",
-        "流动"
+        "education",
+        "class",
+        "youth",
+        "mobility"
       ]
     },
     {
       "id": "measurement:144",
       "group": "measurement",
-      "label": "教育获得",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Educational attainment",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "教育",
-        "阶层",
-        "青年",
-        "流动"
+        "education",
+        "class",
+        "youth",
+        "mobility"
       ]
     },
     {
       "id": "measurement:145",
       "group": "measurement",
-      "label": "教育期望/投入",
-      "facet": "候选指标",
-      "text": "父母期望；课外辅导支出/时间；学校选择/升学意向",
+      "label": "Educational aspirations/investment",
+      "facet": "Candidate indicators",
+      "text": "Parental expectations;Tutoring expenditure/time;School choice/further-study intentions",
       "topics": [
-        "教育",
-        "家庭",
-        "儿童",
-        "阶层"
+        "education",
+        "family",
+        "children",
+        "class"
       ]
     },
     {
       "id": "measurement:146",
       "group": "measurement",
-      "label": "教育期望/投入",
-      "facet": "主编码规则",
-      "text": "区分子女与父母报告；明确发生在结果之前",
+      "label": "Educational aspirations/investment",
+      "facet": "Primary coding rules",
+      "text": "Distinguish child and parent reports; make clear that measurement precedes the outcome",
       "topics": [
-        "教育",
-        "家庭",
-        "儿童",
-        "阶层"
+        "education",
+        "family",
+        "children",
+        "class"
       ]
     },
     {
       "id": "measurement:147",
       "group": "measurement",
-      "label": "教育期望/投入",
-      "facet": "测量警告",
-      "text": "期望容易与既有成绩共同决定；避免把处理后投入作为基线控制",
+      "label": "Educational aspirations/investment",
+      "facet": "Measurement warnings",
+      "text": "Aspirations are often jointly determined with prior achievement; avoid controlling for post-treatment investment at baseline",
       "topics": [
-        "教育",
-        "家庭",
-        "儿童",
-        "阶层"
+        "education",
+        "family",
+        "children",
+        "class"
       ]
     },
     {
       "id": "measurement:148",
       "group": "measurement",
-      "label": "教育期望/投入",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Educational aspirations/investment",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "教育",
-        "家庭",
-        "儿童",
-        "阶层"
+        "education",
+        "family",
+        "children",
+        "class"
       ]
     },
     {
       "id": "measurement:149",
       "group": "measurement",
-      "label": "主观健康",
-      "facet": "候选指标",
-      "text": "自评健康 1–5；是否慢病；ADL/IADL 限制",
+      "label": "Self-rated health",
+      "facet": "Candidate indicators",
+      "text": "Self-rated health 1–5;Presence of chronic disease;ADL/IADL limitations",
       "topics": [
-        "健康",
-        "老年",
-        "医疗"
+        "health",
+        "older adults",
+        "medical care"
       ]
     },
     {
       "id": "measurement:150",
       "group": "measurement",
-      "label": "主观健康",
-      "facet": "主编码规则",
-      "text": "保持原量表方向；有序模型或二元阈值均需理论说明",
+      "label": "Self-rated health",
+      "facet": "Primary coding rules",
+      "text": "Preserve the original scale direction; justify ordinal models or binary thresholds theoretically",
       "topics": [
-        "健康",
-        "老年",
-        "医疗"
+        "health",
+        "older adults",
+        "medical care"
       ]
     },
     {
       "id": "measurement:151",
       "group": "measurement",
-      "label": "主观健康",
-      "facet": "测量警告",
-      "text": "自评健康受参照群体影响；比较群体时做测量可比性检查",
+      "label": "Self-rated health",
+      "facet": "Measurement warnings",
+      "text": "Self-rated health is affected by reference groups; check measurement comparability across groups",
       "topics": [
-        "健康",
-        "老年",
-        "医疗"
+        "health",
+        "older adults",
+        "medical care"
       ]
     },
     {
       "id": "measurement:152",
       "group": "measurement",
-      "label": "主观健康",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Self-rated health",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "健康",
-        "老年",
-        "医疗"
+        "health",
+        "older adults",
+        "medical care"
       ]
     },
     {
       "id": "measurement:153",
       "group": "measurement",
-      "label": "心理健康",
-      "facet": "候选指标",
-      "text": "CES-D/PHQ/GHQ 总分；临床阈值；单项情绪频率",
+      "label": "Mental health",
+      "facet": "Candidate indicators",
+      "text": "CES-D/PHQ/GHQ total score;Clinical threshold;Frequency of individual emotions",
       "topics": [
-        "心理健康",
-        "抑郁",
-        "健康",
-        "家庭"
+        "mental health",
+        "depression",
+        "health",
+        "family"
       ]
     },
     {
       "id": "measurement:154",
       "group": "measurement",
-      "label": "心理健康",
-      "facet": "主编码规则",
-      "text": "按量表手册反向计分、缺项规则与阈值；报告内部一致性",
+      "label": "Mental health",
+      "facet": "Primary coding rules",
+      "text": "Follow the scale manual for reverse coding, item-missing rules, and thresholds; report internal consistency",
       "topics": [
-        "心理健康",
-        "抑郁",
-        "健康",
-        "家庭"
+        "mental health",
+        "depression",
+        "health",
+        "family"
       ]
     },
     {
       "id": "measurement:155",
       "group": "measurement",
-      "label": "心理健康",
-      "facet": "测量警告",
-      "text": "量表非诊断；不要将筛查阈值等同临床患病",
+      "label": "Mental health",
+      "facet": "Measurement warnings",
+      "text": "Scales are not diagnoses; do not equate screening thresholds with clinical illness",
       "topics": [
-        "心理健康",
-        "抑郁",
-        "健康",
-        "家庭"
+        "mental health",
+        "depression",
+        "health",
+        "family"
       ]
     },
     {
       "id": "measurement:156",
       "group": "measurement",
-      "label": "心理健康",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Mental health",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "心理健康",
-        "抑郁",
-        "健康",
-        "家庭"
+        "mental health",
+        "depression",
+        "health",
+        "family"
       ]
     },
     {
       "id": "measurement:157",
       "group": "measurement",
-      "label": "生活满意度/幸福感",
-      "facet": "候选指标",
-      "text": "总体满意度；正负情绪；目的感/意义感",
+      "label": "Life satisfaction/well-being",
+      "facet": "Candidate indicators",
+      "text": "Overall satisfaction;Positive/negative affect;Sense of purpose/meaning",
       "topics": [
-        "幸福",
-        "满意度",
-        "生活质量"
+        "well-being",
+        "satisfaction",
+        "quality of life"
       ]
     },
     {
       "id": "measurement:158",
       "group": "measurement",
-      "label": "生活满意度/幸福感",
-      "facet": "主编码规则",
-      "text": "有序量表优先保留；可报告 OLS 作为可解释性对照",
+      "label": "Life satisfaction/well-being",
+      "facet": "Primary coding rules",
+      "text": "Prefer retaining ordinal scales; OLS may be reported as an interpretability comparison",
       "topics": [
-        "幸福",
-        "满意度",
-        "生活质量"
+        "well-being",
+        "satisfaction",
+        "quality of life"
       ]
     },
     {
       "id": "measurement:159",
       "group": "measurement",
-      "label": "生活满意度/幸福感",
-      "facet": "测量警告",
-      "text": "跨文化响应风格不同；需避免反向因果强断言",
+      "label": "Life satisfaction/well-being",
+      "facet": "Measurement warnings",
+      "text": "Response styles differ across cultures; avoid strong claims that ignore reverse causality",
       "topics": [
-        "幸福",
-        "满意度",
-        "生活质量"
+        "well-being",
+        "satisfaction",
+        "quality of life"
       ]
     },
     {
       "id": "measurement:160",
       "group": "measurement",
-      "label": "生活满意度/幸福感",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Life satisfaction/well-being",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "幸福",
-        "满意度",
-        "生活质量"
+        "well-being",
+        "satisfaction",
+        "quality of life"
       ]
     },
     {
       "id": "measurement:161",
       "group": "measurement",
-      "label": "社会信任",
-      "facet": "候选指标",
-      "text": "一般信任题；制度信任题；特定群体信任",
+      "label": "Social trust",
+      "facet": "Candidate indicators",
+      "text": "General trust item;Institutional trust items;Trust in specific groups",
       "topics": [
-        "信任",
-        "社会资本",
-        "政治",
-        "社区"
+        "trust",
+        "social capital",
+        "politics",
+        "community"
       ]
     },
     {
       "id": "measurement:162",
       "group": "measurement",
-      "label": "社会信任",
-      "facet": "主编码规则",
-      "text": "区分普遍信任与制度信任；多题量表报告维度检验",
+      "label": "Social trust",
+      "facet": "Primary coding rules",
+      "text": "Distinguish generalized from institutional trust; report dimensional tests for multi-item scales",
       "topics": [
-        "信任",
-        "社会资本",
-        "政治",
-        "社区"
+        "trust",
+        "social capital",
+        "politics",
+        "community"
       ]
     },
     {
       "id": "measurement:163",
       "group": "measurement",
-      "label": "社会信任",
-      "facet": "测量警告",
-      "text": "单题与量表不可互换；政治敏感题缺失需描述",
+      "label": "Social trust",
+      "facet": "Measurement warnings",
+      "text": "Single items and scales are not interchangeable; describe missingness in politically sensitive items",
       "topics": [
-        "信任",
-        "社会资本",
-        "政治",
-        "社区"
+        "trust",
+        "social capital",
+        "politics",
+        "community"
       ]
     },
     {
       "id": "measurement:164",
       "group": "measurement",
-      "label": "社会信任",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Social trust",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "信任",
-        "社会资本",
-        "政治",
-        "社区"
+        "trust",
+        "social capital",
+        "politics",
+        "community"
       ]
     },
     {
       "id": "measurement:165",
       "group": "measurement",
-      "label": "社会参与",
-      "facet": "候选指标",
-      "text": "协会/志愿活动；投票/协商；线上公共参与",
+      "label": "Social participation",
+      "facet": "Candidate indicators",
+      "text": "Association/volunteer activities;Voting/consultation;Online civic participation",
       "topics": [
-        "参与",
-        "志愿",
-        "社区",
-        "政治"
+        "participation",
+        "volunteering",
+        "community",
+        "politics"
       ]
     },
     {
       "id": "measurement:166",
       "group": "measurement",
-      "label": "社会参与",
-      "facet": "主编码规则",
-      "text": "明确频率窗口和正式/非正式参与边界",
+      "label": "Social participation",
+      "facet": "Primary coding rules",
+      "text": "Specify the frequency window and boundaries between formal and informal participation",
       "topics": [
-        "参与",
-        "志愿",
-        "社区",
-        "政治"
+        "participation",
+        "volunteering",
+        "community",
+        "politics"
       ]
     },
     {
       "id": "measurement:167",
       "group": "measurement",
-      "label": "社会参与",
-      "facet": "测量警告",
-      "text": "机会结构造成零值；必要时使用两部模型",
+      "label": "Social participation",
+      "facet": "Measurement warnings",
+      "text": "Opportunity structures generate zeros; use a two-part model when necessary",
       "topics": [
-        "参与",
-        "志愿",
-        "社区",
-        "政治"
+        "participation",
+        "volunteering",
+        "community",
+        "politics"
       ]
     },
     {
       "id": "measurement:168",
       "group": "measurement",
-      "label": "社会参与",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Social participation",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "参与",
-        "志愿",
-        "社区",
-        "政治"
+        "participation",
+        "volunteering",
+        "community",
+        "politics"
       ]
     },
     {
       "id": "measurement:169",
       "group": "measurement",
-      "label": "社会资本",
-      "facet": "候选指标",
-      "text": "关系网络规模/异质性；互惠支持；组织嵌入",
+      "label": "Social capital",
+      "facet": "Candidate indicators",
+      "text": "Network size/heterogeneity;Reciprocal support;Organizational embeddedness",
       "topics": [
-        "社会资本",
-        "网络",
-        "信任",
-        "家庭"
+        "social capital",
+        "network",
+        "trust",
+        "family"
       ]
     },
     {
       "id": "measurement:170",
       "group": "measurement",
-      "label": "社会资本",
-      "facet": "主编码规则",
-      "text": "区分结构、关系和认知维度；不要用单一熟人数量代表全部社会资本",
+      "label": "Social capital",
+      "facet": "Primary coding rules",
+      "text": "Distinguish structural, relational, and cognitive dimensions; do not use the number of acquaintances alone to represent all social capital",
       "topics": [
-        "社会资本",
-        "网络",
-        "信任",
-        "家庭"
+        "social capital",
+        "network",
+        "trust",
+        "family"
       ]
     },
     {
       "id": "measurement:171",
       "group": "measurement",
-      "label": "社会资本",
-      "facet": "测量警告",
-      "text": "网络问卷截断与回忆偏差明显；说明 name-generator 规则",
+      "label": "Social capital",
+      "facet": "Measurement warnings",
+      "text": "Network surveys are vulnerable to truncation and recall bias; document name-generator rules",
       "topics": [
-        "社会资本",
-        "网络",
-        "信任",
-        "家庭"
+        "social capital",
+        "network",
+        "trust",
+        "family"
       ]
     },
     {
       "id": "measurement:172",
       "group": "measurement",
-      "label": "社会资本",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Social capital",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "社会资本",
-        "网络",
-        "信任",
-        "家庭"
+        "social capital",
+        "network",
+        "trust",
+        "family"
       ]
     },
     {
       "id": "measurement:173",
       "group": "measurement",
-      "label": "性别态度",
-      "facet": "候选指标",
-      "text": "性别角色同意度；家务/育儿分工观；职场平等观",
+      "label": "Gender attitudes",
+      "facet": "Candidate indicators",
+      "text": "Agreement with gender roles;Views on household/childcare division;Views on workplace equality",
       "topics": [
-        "性别",
-        "家庭",
-        "婚姻",
-        "劳动"
+        "gender",
+        "family",
+        "marriage",
+        "labor"
       ]
     },
     {
       "id": "measurement:174",
       "group": "measurement",
-      "label": "性别态度",
-      "facet": "主编码规则",
-      "text": "统一方向后做量表；检验跨性别/代际测量不变性",
+      "label": "Gender attitudes",
+      "facet": "Primary coding rules",
+      "text": "Align item direction before building a scale; test measurement invariance across gender and generations",
       "topics": [
-        "性别",
-        "家庭",
-        "婚姻",
-        "劳动"
+        "gender",
+        "family",
+        "marriage",
+        "labor"
       ]
     },
     {
       "id": "measurement:175",
       "group": "measurement",
-      "label": "性别态度",
-      "facet": "测量警告",
-      "text": "社会期许偏差可能高；谨慎将态度视为稳定特质",
+      "label": "Gender attitudes",
+      "facet": "Measurement warnings",
+      "text": "Social-desirability bias may be substantial; treat attitudes cautiously as stable traits",
       "topics": [
-        "性别",
-        "家庭",
-        "婚姻",
-        "劳动"
+        "gender",
+        "family",
+        "marriage",
+        "labor"
       ]
     },
     {
       "id": "measurement:176",
       "group": "measurement",
-      "label": "性别态度",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Gender attitudes",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "性别",
-        "家庭",
-        "婚姻",
-        "劳动"
+        "gender",
+        "family",
+        "marriage",
+        "labor"
       ]
     },
     {
       "id": "measurement:177",
       "group": "measurement",
-      "label": "生育意愿/行为",
-      "facet": "候选指标",
-      "text": "理想/计划子女数；近期生育计划；实际出生/生育间隔",
+      "label": "Fertility intentions/behavior",
+      "facet": "Candidate indicators",
+      "text": "Ideal/planned number of children;Near-term fertility plans;Actual births/birth spacing",
       "topics": [
-        "生育",
-        "婚姻",
-        "家庭",
-        "女性"
+        "fertility",
+        "marriage",
+        "family",
+        "women"
       ]
     },
     {
       "id": "measurement:178",
       "group": "measurement",
-      "label": "生育意愿/行为",
-      "facet": "主编码规则",
-      "text": "意愿与行为分开建模；事件史适用于出生时间",
+      "label": "Fertility intentions/behavior",
+      "facet": "Primary coding rules",
+      "text": "Model intentions and behavior separately; event-history methods suit birth timing",
       "topics": [
-        "生育",
-        "婚姻",
-        "家庭",
-        "女性"
+        "fertility",
+        "marriage",
+        "family",
+        "women"
       ]
     },
     {
       "id": "measurement:179",
       "group": "measurement",
-      "label": "生育意愿/行为",
-      "facet": "测量警告",
-      "text": "意愿受当期伴侣、政策和经济冲击影响；不能当作固定偏好",
+      "label": "Fertility intentions/behavior",
+      "facet": "Measurement warnings",
+      "text": "Intentions are affected by current partners, policy, and economic shocks; do not treat them as fixed preferences",
       "topics": [
-        "生育",
-        "婚姻",
-        "家庭",
-        "女性"
+        "fertility",
+        "marriage",
+        "family",
+        "women"
       ]
     },
     {
       "id": "measurement:180",
       "group": "measurement",
-      "label": "生育意愿/行为",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Fertility intentions/behavior",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "生育",
-        "婚姻",
-        "家庭",
-        "女性"
+        "fertility",
+        "marriage",
+        "family",
+        "women"
       ]
     },
     {
       "id": "measurement:181",
       "group": "measurement",
-      "label": "婚姻与家庭结构",
-      "facet": "候选指标",
-      "text": "婚姻状态；同居/初婚年龄；家庭规模/代际同住",
+      "label": "Marriage and family structure",
+      "facet": "Candidate indicators",
+      "text": "Marital status;Cohabitation/age at first marriage;Household size/intergenerational co-residence",
       "topics": [
-        "婚姻",
-        "家庭",
-        "代际",
-        "照护"
+        "marriage",
+        "family",
+        "generations",
+        "care"
       ]
     },
     {
       "id": "measurement:182",
       "group": "measurement",
-      "label": "婚姻与家庭结构",
-      "facet": "主编码规则",
-      "text": "明确法律、居住与经济家庭的定义；记录家庭成员识别规则",
+      "label": "Marriage and family structure",
+      "facet": "Primary coding rules",
+      "text": "Define legal, residential, and economic households clearly; document household-member identification rules",
       "topics": [
-        "婚姻",
-        "家庭",
-        "代际",
-        "照护"
+        "marriage",
+        "family",
+        "generations",
+        "care"
       ]
     },
     {
       "id": "measurement:183",
       "group": "measurement",
-      "label": "婚姻与家庭结构",
-      "facet": "测量警告",
-      "text": "跨波家庭拆分/合并需保留追踪规则；避免把家庭结构当作纯粹选择结果",
+      "label": "Marriage and family structure",
+      "facet": "Measurement warnings",
+      "text": "Retain tracking rules for household splits/mergers across waves; avoid treating family structure as a purely voluntary outcome",
       "topics": [
-        "婚姻",
-        "家庭",
-        "代际",
-        "照护"
+        "marriage",
+        "family",
+        "generations",
+        "care"
       ]
     },
     {
       "id": "measurement:184",
       "group": "measurement",
-      "label": "婚姻与家庭结构",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Marriage and family structure",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "婚姻",
-        "家庭",
-        "代际",
-        "照护"
+        "marriage",
+        "family",
+        "generations",
+        "care"
       ]
     },
     {
       "id": "measurement:185",
       "group": "measurement",
-      "label": "照护劳动",
-      "facet": "候选指标",
-      "text": "照护小时；主要照护者；照护负担量表",
+      "label": "Care work",
+      "facet": "Candidate indicators",
+      "text": "Caregiving hours;Primary caregiver;Care burden scale",
       "topics": [
-        "照护",
-        "家庭",
-        "老年",
-        "性别"
+        "care",
+        "family",
+        "older adults",
+        "gender"
       ]
     },
     {
       "id": "measurement:186",
       "group": "measurement",
-      "label": "照护劳动",
-      "facet": "主编码规则",
-      "text": "区分儿童、老人和失能照护；时间日记优于粗略回忆题",
+      "label": "Care work",
+      "facet": "Primary coding rules",
+      "text": "Distinguish childcare, eldercare, and disability care; time diaries are preferable to rough recall items",
       "topics": [
-        "照护",
-        "家庭",
-        "老年",
-        "性别"
+        "care",
+        "family",
+        "older adults",
+        "gender"
       ]
     },
     {
       "id": "measurement:187",
       "group": "measurement",
-      "label": "照护劳动",
-      "facet": "测量警告",
-      "text": "零值与强度分布可能是两过程；性别差异需控制可用时间与需求",
+      "label": "Care work",
+      "facet": "Measurement warnings",
+      "text": "Zeros and intensity may reflect two processes; gender differences require controls for available time and need",
       "topics": [
-        "照护",
-        "家庭",
-        "老年",
-        "性别"
+        "care",
+        "family",
+        "older adults",
+        "gender"
       ]
     },
     {
       "id": "measurement:188",
       "group": "measurement",
-      "label": "照护劳动",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Care work",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "照护",
-        "家庭",
-        "老年",
-        "性别"
+        "care",
+        "family",
+        "older adults",
+        "gender"
       ]
     },
     {
       "id": "measurement:189",
       "group": "measurement",
-      "label": "迁移/流动",
-      "facet": "候选指标",
-      "text": "流动状态；迁移距离/时长；户籍与常住地是否分离",
+      "label": "Migration/mobility",
+      "facet": "Candidate indicators",
+      "text": "Migration status;Migration distance/duration;Whether registered and usual residence are separate",
       "topics": [
-        "迁移",
-        "流动人口",
-        "户籍",
-        "城市"
+        "migration",
+        "migrants",
+        "household registration",
+        "urban"
       ]
     },
     {
       "id": "measurement:190",
       "group": "measurement",
-      "label": "迁移/流动",
-      "facet": "主编码规则",
-      "text": "区分跨省、跨市、城乡和返乡流动；记录基准时点",
+      "label": "Migration/mobility",
+      "facet": "Primary coding rules",
+      "text": "Distinguish interprovincial, intercity, rural–urban, and return migration; record the baseline time point",
       "topics": [
-        "迁移",
-        "流动人口",
-        "户籍",
-        "城市"
+        "migration",
+        "migrants",
+        "household registration",
+        "urban"
       ]
     },
     {
       "id": "measurement:191",
       "group": "measurement",
-      "label": "迁移/流动",
-      "facet": "测量警告",
-      "text": "迁移者的原籍选择和存活样本造成选择偏差；不能以现居地替代迁移史",
+      "label": "Migration/mobility",
+      "facet": "Measurement warnings",
+      "text": "Origin choice and survivor samples among migrants create selection bias; current residence is not a substitute for migration history",
       "topics": [
-        "迁移",
-        "流动人口",
-        "户籍",
-        "城市"
+        "migration",
+        "migrants",
+        "household registration",
+        "urban"
       ]
     },
     {
       "id": "measurement:192",
       "group": "measurement",
-      "label": "迁移/流动",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Migration/mobility",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "迁移",
-        "流动人口",
-        "户籍",
-        "城市"
+        "migration",
+        "migrants",
+        "household registration",
+        "urban"
       ]
     },
     {
       "id": "measurement:193",
       "group": "measurement",
-      "label": "户籍与制度排斥",
-      "facet": "候选指标",
-      "text": "农业/非农户籍；本地/外地户籍；积分/落户资格",
+      "label": "Household registration and institutional exclusion",
+      "facet": "Candidate indicators",
+      "text": "Agricultural/non-agricultural registration;Local/nonlocal registration;Points-based/hukou eligibility",
       "topics": [
-        "户籍",
-        "迁移",
-        "城市",
-        "不平等"
+        "household registration",
+        "migration",
+        "urban",
+        "inequality"
       ]
     },
     {
       "id": "measurement:194",
       "group": "measurement",
-      "label": "户籍与制度排斥",
-      "facet": "主编码规则",
-      "text": "同时记录出生户籍、当前户籍与居住地，构造制度匹配变量",
+      "label": "Household registration and institutional exclusion",
+      "facet": "Primary coding rules",
+      "text": "Record birth registration, current registration, and residence simultaneously; construct institutional-match variables",
       "topics": [
-        "户籍",
-        "迁移",
-        "城市",
-        "不平等"
+        "household registration",
+        "migration",
+        "urban",
+        "inequality"
       ]
     },
     {
       "id": "measurement:195",
       "group": "measurement",
-      "label": "户籍与制度排斥",
-      "facet": "测量警告",
-      "text": "户籍转变是选择性过程；不要只把户籍当静态二元控制变量",
+      "label": "Household registration and institutional exclusion",
+      "facet": "Measurement warnings",
+      "text": "Registration changes are selective; do not treat registration only as a static binary control",
       "topics": [
-        "户籍",
-        "迁移",
-        "城市",
-        "不平等"
+        "household registration",
+        "migration",
+        "urban",
+        "inequality"
       ]
     },
     {
       "id": "measurement:196",
       "group": "measurement",
-      "label": "户籍与制度排斥",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Household registration and institutional exclusion",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "户籍",
-        "迁移",
-        "城市",
-        "不平等"
+        "household registration",
+        "migration",
+        "urban",
+        "inequality"
       ]
     },
     {
       "id": "measurement:197",
       "group": "measurement",
-      "label": "社会保障",
-      "facet": "候选指标",
-      "text": "养老/医疗/失业保险参保；缴费连续性；待遇可及性",
+      "label": "Social insurance",
+      "facet": "Candidate indicators",
+      "text": "Pension/health/unemployment insurance enrollment;Contribution continuity;Benefit accessibility",
       "topics": [
-        "社保",
-        "劳动",
-        "保障",
-        "平台"
+        "social insurance",
+        "labor",
+        "welfare",
+        "platform"
       ]
     },
     {
       "id": "measurement:198",
       "group": "measurement",
-      "label": "社会保障",
-      "facet": "主编码规则",
-      "text": "区分法定覆盖、实际缴费与实际使用；明确参保口径",
+      "label": "Social insurance",
+      "facet": "Primary coding rules",
+      "text": "Distinguish statutory coverage, actual contributions, and actual use; define enrollment consistently",
       "topics": [
-        "社保",
-        "劳动",
-        "保障",
-        "平台"
+        "social insurance",
+        "labor",
+        "welfare",
+        "platform"
       ]
     },
     {
       "id": "measurement:199",
       "group": "measurement",
-      "label": "社会保障",
-      "facet": "测量警告",
-      "text": "自报参保可能受认知误差；平台/灵活就业者应单列制度路径",
+      "label": "Social insurance",
+      "facet": "Measurement warnings",
+      "text": "Self-reported enrollment may contain comprehension error; specify institutional pathways for platform/flexible workers",
       "topics": [
-        "社保",
-        "劳动",
-        "保障",
-        "平台"
+        "social insurance",
+        "labor",
+        "welfare",
+        "platform"
       ]
     },
     {
       "id": "measurement:200",
       "group": "measurement",
-      "label": "社会保障",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Social insurance",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "社保",
-        "劳动",
-        "保障",
-        "平台"
+        "social insurance",
+        "labor",
+        "welfare",
+        "platform"
       ]
     },
     {
       "id": "measurement:201",
       "group": "measurement",
-      "label": "住房状况",
-      "facet": "候选指标",
-      "text": "产权/租住；住房支出负担；人均面积/拥挤",
+      "label": "Housing conditions",
+      "facet": "Candidate indicators",
+      "text": "Ownership/renting;Housing-cost burden;Per-capita floor area/crowding",
       "topics": [
-        "住房",
-        "城市",
-        "家庭",
-        "不平等"
+        "housing",
+        "urban",
+        "family",
+        "inequality"
       ]
     },
     {
       "id": "measurement:202",
       "group": "measurement",
-      "label": "住房状况",
-      "facet": "主编码规则",
-      "text": "负担常以支出收入比定义，须处理收入零值；产权要区分家庭/个人",
+      "label": "Housing conditions",
+      "facet": "Primary coding rules",
+      "text": "Burden is often defined as the expenditure-to-income ratio; handle zero income; distinguish household and individual ownership",
       "topics": [
-        "住房",
-        "城市",
-        "家庭",
-        "不平等"
+        "housing",
+        "urban",
+        "family",
+        "inequality"
       ]
     },
     {
       "id": "measurement:203",
       "group": "measurement",
-      "label": "住房状况",
-      "facet": "测量警告",
-      "text": "房价与居住选择共变；地区比较需考虑价格水平与城市层级",
+      "label": "Housing conditions",
+      "facet": "Measurement warnings",
+      "text": "Housing prices and residential choice covary; regional comparisons should account for price levels and city tiers",
       "topics": [
-        "住房",
-        "城市",
-        "家庭",
-        "不平等"
+        "housing",
+        "urban",
+        "family",
+        "inequality"
       ]
     },
     {
       "id": "measurement:204",
       "group": "measurement",
-      "label": "住房状况",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Housing conditions",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "住房",
-        "城市",
-        "家庭",
-        "不平等"
+        "housing",
+        "urban",
+        "family",
+        "inequality"
       ]
     },
     {
       "id": "measurement:205",
       "group": "measurement",
-      "label": "社区/邻里条件",
-      "facet": "候选指标",
-      "text": "社区设施；主观安全/凝聚力；地区贫困或服务供给",
+      "label": "Community/neighborhood conditions",
+      "facet": "Candidate indicators",
+      "text": "Community facilities;Subjective safety/cohesion;Area poverty or service provision",
       "topics": [
-        "社区",
-        "城市",
-        "邻里",
-        "治理"
+        "community",
+        "urban",
+        "neighborhood",
+        "governance"
       ]
     },
     {
       "id": "measurement:206",
       "group": "measurement",
-      "label": "社区/邻里条件",
-      "facet": "主编码规则",
-      "text": "个体感知与行政地区指标分别建模；明确空间尺度",
+      "label": "Community/neighborhood conditions",
+      "facet": "Primary coding rules",
+      "text": "Model individual perceptions and administrative-area indicators separately; specify spatial scale",
       "topics": [
-        "社区",
-        "城市",
-        "邻里",
-        "治理"
+        "community",
+        "urban",
+        "neighborhood",
+        "governance"
       ]
     },
     {
       "id": "measurement:207",
       "group": "measurement",
-      "label": "社区/邻里条件",
-      "facet": "测量警告",
-      "text": "地区均值可能产生生态谬误；需说明地理匹配和隐私处理",
+      "label": "Community/neighborhood conditions",
+      "facet": "Measurement warnings",
+      "text": "Area averages can produce ecological fallacies; document geographic linkage and privacy handling",
       "topics": [
-        "社区",
-        "城市",
-        "邻里",
-        "治理"
+        "community",
+        "urban",
+        "neighborhood",
+        "governance"
       ]
     },
     {
       "id": "measurement:208",
       "group": "measurement",
-      "label": "社区/邻里条件",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Community/neighborhood conditions",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "社区",
-        "城市",
-        "邻里",
-        "治理"
+        "community",
+        "urban",
+        "neighborhood",
+        "governance"
       ]
     },
     {
       "id": "measurement:209",
       "group": "measurement",
-      "label": "数字鸿沟",
-      "facet": "候选指标",
-      "text": "设备/宽带接入；数字技能；使用频率/用途",
+      "label": "Digital divide",
+      "facet": "Candidate indicators",
+      "text": "Device/broadband access;Digital skills;Usage frequency/purpose",
       "topics": [
-        "数字",
-        "互联网",
-        "平台",
-        "人工智能"
+        "digital",
+        "internet",
+        "platform",
+        "artificial intelligence"
       ]
     },
     {
       "id": "measurement:210",
       "group": "measurement",
-      "label": "数字鸿沟",
-      "facet": "主编码规则",
-      "text": "区分接入、能力、使用收益三层；避免仅用是否上网",
+      "label": "Digital divide",
+      "facet": "Primary coding rules",
+      "text": "Distinguish access, capability, and use benefits; do not rely only on whether someone uses the internet",
       "topics": [
-        "数字",
-        "互联网",
-        "平台",
-        "人工智能"
+        "digital",
+        "internet",
+        "platform",
+        "artificial intelligence"
       ]
     },
     {
       "id": "measurement:211",
       "group": "measurement",
-      "label": "数字鸿沟",
-      "facet": "测量警告",
-      "text": "自报使用偏差与年龄混杂强；平台数据覆盖不等于总体覆盖",
+      "label": "Digital divide",
+      "facet": "Measurement warnings",
+      "text": "Self-reported use bias and age confounding can be strong; platform-data coverage is not population coverage",
       "topics": [
-        "数字",
-        "互联网",
-        "平台",
-        "人工智能"
+        "digital",
+        "internet",
+        "platform",
+        "artificial intelligence"
       ]
     },
     {
       "id": "measurement:212",
       "group": "measurement",
-      "label": "数字鸿沟",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Digital divide",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "数字",
-        "互联网",
-        "平台",
-        "人工智能"
+        "digital",
+        "internet",
+        "platform",
+        "artificial intelligence"
       ]
     },
     {
       "id": "measurement:213",
       "group": "measurement",
-      "label": "平台劳动",
-      "facet": "候选指标",
-      "text": "是否接单/众包；平台收入占比；算法控制/评价压力",
+      "label": "Platform work",
+      "facet": "Candidate indicators",
+      "text": "Whether taking platform/crowdsourcing jobs;Share of income from platforms;Algorithmic control/evaluation pressure",
       "topics": [
-        "平台",
-        "劳动",
-        "算法",
-        "灵活就业"
+        "platform",
+        "labor",
+        "algorithm",
+        "flexible employment"
       ]
     },
     {
       "id": "measurement:214",
       "group": "measurement",
-      "label": "平台劳动",
-      "facet": "主编码规则",
-      "text": "界定平台类型与参考期；记录多平台与线下混合劳动",
+      "label": "Platform work",
+      "facet": "Primary coding rules",
+      "text": "Define platform type and reference period; record multi-platform and mixed online/offline work",
       "topics": [
-        "平台",
-        "劳动",
-        "算法",
-        "灵活就业"
+        "platform",
+        "labor",
+        "algorithm",
+        "flexible employment"
       ]
     },
     {
       "id": "measurement:215",
       "group": "measurement",
-      "label": "平台劳动",
-      "facet": "测量警告",
-      "text": "非概率平台样本不可外推；收入和工时需处理多重来源",
+      "label": "Platform work",
+      "facet": "Measurement warnings",
+      "text": "Nonprobability platform samples cannot be generalized; handle multiple sources of income and hours",
       "topics": [
-        "平台",
-        "劳动",
-        "算法",
-        "灵活就业"
+        "platform",
+        "labor",
+        "algorithm",
+        "flexible employment"
       ]
     },
     {
       "id": "measurement:216",
       "group": "measurement",
-      "label": "平台劳动",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Platform work",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "平台",
-        "劳动",
-        "算法",
-        "灵活就业"
+        "platform",
+        "labor",
+        "algorithm",
+        "flexible employment"
       ]
     },
     {
       "id": "measurement:217",
       "group": "measurement",
-      "label": "公共服务可及性",
-      "facet": "候选指标",
-      "text": "最近服务距离/时间；实际使用；主观可负担性/质量",
+      "label": "Public-service accessibility",
+      "facet": "Candidate indicators",
+      "text": "Distance/time to nearest service;Actual use;Perceived affordability/quality",
       "topics": [
-        "公共服务",
-        "医疗",
-        "教育",
-        "治理"
+        "public services",
+        "medical care",
+        "education",
+        "governance"
       ]
     },
     {
       "id": "measurement:218",
       "group": "measurement",
-      "label": "公共服务可及性",
-      "facet": "主编码规则",
-      "text": "将供给、可达、使用和满意度分开；地理匹配须说明",
+      "label": "Public-service accessibility",
+      "facet": "Primary coding rules",
+      "text": "Separate supply, accessibility, use, and satisfaction; document geographic linkage",
       "topics": [
-        "公共服务",
-        "医疗",
-        "教育",
-        "治理"
+        "public services",
+        "medical care",
+        "education",
+        "governance"
       ]
     },
     {
       "id": "measurement:219",
       "group": "measurement",
-      "label": "公共服务可及性",
-      "facet": "测量警告",
-      "text": "使用量常受需求严重度影响；不要直接把高使用解释为服务更好",
+      "label": "Public-service accessibility",
+      "facet": "Measurement warnings",
+      "text": "Use is often driven by need severity; do not directly interpret higher use as better service",
       "topics": [
-        "公共服务",
-        "医疗",
-        "教育",
-        "治理"
+        "public services",
+        "medical care",
+        "education",
+        "governance"
       ]
     },
     {
       "id": "measurement:220",
       "group": "measurement",
-      "label": "公共服务可及性",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Public-service accessibility",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "公共服务",
-        "医疗",
-        "教育",
-        "治理"
+        "public services",
+        "medical care",
+        "education",
+        "governance"
       ]
     },
     {
       "id": "measurement:221",
       "group": "measurement",
-      "label": "主观社会流动",
-      "facet": "候选指标",
-      "text": "未来上升预期；代际相对位置；社会地位阶梯",
+      "label": "Subjective social mobility",
+      "facet": "Candidate indicators",
+      "text": "Expectation of upward mobility;Relative intergenerational position;Social-status ladder",
       "topics": [
-        "流动",
-        "阶层",
-        "不平等",
-        "预期"
+        "mobility",
+        "class",
+        "inequality",
+        "expectations"
       ]
     },
     {
       "id": "measurement:222",
       "group": "measurement",
-      "label": "主观社会流动",
-      "facet": "主编码规则",
-      "text": "区分客观与主观流动；报告参照群体和时间框架",
+      "label": "Subjective social mobility",
+      "facet": "Primary coding rules",
+      "text": "Distinguish objective and subjective mobility; report the reference group and time frame",
       "topics": [
-        "流动",
-        "阶层",
-        "不平等",
-        "预期"
+        "mobility",
+        "class",
+        "inequality",
+        "expectations"
       ]
     },
     {
       "id": "measurement:223",
       "group": "measurement",
-      "label": "主观社会流动",
-      "facet": "测量警告",
-      "text": "乐观偏差/适应性偏好可能强；与客观指标并置而非互为替代",
+      "label": "Subjective social mobility",
+      "facet": "Measurement warnings",
+      "text": "Optimism bias/adaptive preferences may be strong; present alongside, rather than substitute for, objective measures",
       "topics": [
-        "流动",
-        "阶层",
-        "不平等",
-        "预期"
+        "mobility",
+        "class",
+        "inequality",
+        "expectations"
       ]
     },
     {
       "id": "measurement:224",
       "group": "measurement",
-      "label": "主观社会流动",
-      "facet": "报告要求",
-      "text": "列出原始题项/字段、取值、参照组、缺失码、变换和替代编码。",
+      "label": "Subjective social mobility",
+      "facet": "Reporting requirements",
+      "text": "List original items/fields, values, reference groups, missing-value codes, transformations, and alternative codings.",
       "topics": [
-        "流动",
-        "阶层",
-        "不平等",
-        "预期"
+        "mobility",
+        "class",
+        "inequality",
+        "expectations"
       ]
     },
     {
       "id": "dataset:225",
       "group": "dataset",
       "label": "CGSS",
-      "facet": "数据集",
-      "text": "中国综合社会调查：个人/家庭/社区的横截面社会态度与分层。获取：公开申请或依项目规则。官方入口：https://cgss.ruc.edu.cn/",
+      "facet": "Dataset",
+      "text": "Chinese General Social Survey: Cross-sectional social attitudes and stratification at the individual/household/community levels. Access: Public application or project-specific rules. Official entry point: https://cgss.ruc.edu.cn/",
       "topics": [
-        "阶层",
-        "信任",
-        "态度",
-        "家庭",
-        "劳动",
-        "社会资本",
-        "网络",
-        "参与"
+        "class",
+        "trust",
+        "attitudes",
+        "family",
+        "labor",
+        "social capital",
+        "network",
+        "participation"
       ]
     },
     {
       "id": "dataset:226",
       "group": "dataset",
       "label": "CFPS",
-      "facet": "数据集",
-      "text": "中国家庭追踪调查：个人—家庭—社区面板，适合家庭、教育、健康与流动。获取：注册并遵循数据使用协议。官方入口：https://opendata.pku.edu.cn/dataverse/CFPS",
+      "facet": "Dataset",
+      "text": "China Family Panel Studies: Individual–household–community panel suited to family, education, health, and mobility. Access: Register and follow the data-use agreement. Official entry point: https://opendata.pku.edu.cn/dataverse/CFPS",
       "topics": [
-        "家庭",
-        "教育",
-        "健康",
-        "收入",
-        "流动",
-        "社会资本",
-        "网络"
+        "family",
+        "education",
+        "health",
+        "income",
+        "mobility",
+        "social capital",
+        "network"
       ]
     },
     {
       "id": "dataset:227",
       "group": "dataset",
       "label": "CLDS",
-      "facet": "数据集",
-      "text": "中国劳动力动态调查：劳动者、家庭与社区，适合就业、劳动关系与社保。获取：按发布方规则申请。官方入口：https://css.sysu.edu.cn/",
+      "facet": "Dataset",
+      "text": "China Labor-force Dynamics Survey: Workers, households, and communities, suited to employment, labor relations, and social insurance. Access: Apply under the provider's rules. Official entry point: https://css.sysu.edu.cn/",
       "topics": [
-        "劳动",
-        "就业",
-        "社保",
-        "迁移"
+        "labor",
+        "employment",
+        "social insurance",
+        "migration"
       ]
     },
     {
       "id": "dataset:228",
       "group": "dataset",
       "label": "CHARLS",
-      "facet": "数据集",
-      "text": "中国健康与养老追踪调查：45 岁以上个体和家庭的追踪健康、照护与经济。获取：注册并遵循数据使用协议。官方入口：https://charls.charlsdata.com/",
+      "facet": "Dataset",
+      "text": "China Health and Retirement Longitudinal Study: Longitudinal health, caregiving, and economic data on individuals and households aged 45 and older. Access: Register and follow the data-use agreement. Official entry point: https://charls.charlsdata.com/",
       "topics": [
-        "健康",
-        "老年",
-        "照护",
-        "家庭"
+        "health",
+        "older adults",
+        "care",
+        "family"
       ]
     },
     {
       "id": "dataset:229",
       "group": "dataset",
       "label": "CHFS",
-      "facet": "数据集",
-      "text": "中国家庭金融调查：家庭资产、负债、收入、保险与消费。获取：按调查方数据规则申请。官方入口：https://chfs.swufe.edu.cn/",
+      "facet": "Dataset",
+      "text": "China Household Finance Survey: Household assets, liabilities, income, insurance, and consumption. Access: Apply under the survey provider's data rules. Official entry point: https://chfs.swufe.edu.cn/",
       "topics": [
-        "财富",
-        "收入",
-        "金融",
-        "家庭"
+        "wealth",
+        "income",
+        "finance",
+        "family"
       ]
     },
     {
       "id": "dataset:230",
       "group": "dataset",
       "label": "CHNS",
-      "facet": "数据集",
-      "text": "中国健康与营养调查：个人、家庭与社区长期健康/营养/社会经济数据。获取：按 UNC 数据规则获取。官方入口：https://www.cpc.unc.edu/projects/china",
+      "facet": "Dataset",
+      "text": "China Health and Nutrition Survey: Long-term individual, household, and community health/nutrition and socioeconomic data. Access: Obtain under UNC data rules. Official entry point: https://www.cpc.unc.edu/projects/china",
       "topics": [
-        "健康",
-        "家庭",
-        "社区",
-        "收入"
+        "health",
+        "family",
+        "community",
+        "income"
       ]
     },
     {
       "id": "dataset:231",
       "group": "dataset",
       "label": "CEPS",
-      "facet": "数据集",
-      "text": "中国教育追踪调查：中学生、家长、教师与学校追踪。获取：注册并遵循数据使用协议。官方入口：https://ceps.ruc.edu.cn/",
+      "facet": "Dataset",
+      "text": "China Education Panel Survey: Longitudinal data on middle-school students, parents, teachers, and schools. Access: Register and follow the data-use agreement. Official entry point: https://ceps.ruc.edu.cn/",
       "topics": [
-        "教育",
-        "儿童",
-        "家庭",
-        "学校"
+        "education",
+        "children",
+        "family",
+        "school"
       ]
     },
     {
       "id": "dataset:232",
       "group": "dataset",
       "label": "CHIP",
-      "facet": "数据集",
-      "text": "中国居民收入分配调查：收入、贫困、分配与劳动力市场微观数据。获取：研究申请/协议获取。官方入口：https://cid.cass.cn/",
+      "facet": "Dataset",
+      "text": "China Household Income Project: Microdata on income, poverty, distribution, and the labor market. Access: Obtain through research application/agreement. Official entry point: https://cid.cass.cn/",
       "topics": [
-        "收入",
-        "贫困",
-        "不平等",
-        "劳动"
+        "income",
+        "poverty",
+        "inequality",
+        "labor"
       ]
     },
     {
       "id": "dataset:233",
       "group": "dataset",
       "label": "CSS",
-      "facet": "数据集",
-      "text": "中国社会状况综合调查：社会结构、公共服务、生活状况与态度。获取：依数据发布规则。官方入口：https://css.cssn.cn/",
+      "facet": "Dataset",
+      "text": "Chinese Social Survey: Social structure, public services, living conditions, and attitudes. Access: Follow data-release rules. Official entry point: https://css.cssn.cn/",
       "topics": [
-        "阶层",
-        "治理",
-        "公共服务",
-        "家庭",
-        "社会资本",
-        "信任",
-        "参与"
+        "class",
+        "governance",
+        "public services",
+        "family",
+        "social capital",
+        "trust",
+        "participation"
       ]
     },
     {
       "id": "dataset:234",
       "group": "dataset",
       "label": "CMDS",
-      "facet": "数据集",
-      "text": "流动人口动态监测调查：流动人口就业、家庭、健康与公共服务。获取：多为受限或按项目渠道获取。官方入口：https://www.nhc.gov.cn/",
+      "facet": "Dataset",
+      "text": "China Migrants Dynamic Survey: Employment, family, health, and public services among migrants. Access: Often restricted or available through project channels. Official entry point: https://www.nhc.gov.cn/",
       "topics": [
-        "迁移",
-        "户籍",
-        "健康",
-        "公共服务"
+        "migration",
+        "household registration",
+        "health",
+        "public services"
       ]
     },
     {
       "id": "dataset:235",
       "group": "dataset",
-      "label": "中国人口普查",
-      "facet": "数据集",
-      "text": "全国人口普查与抽样调查：人口、教育、迁移、住房的宏观/地区口径。获取：公开汇总表；微观样本权限另行确认。官方入口：https://www.stats.gov.cn/",
+      "label": "China Population Census",
+      "facet": "Dataset",
+      "text": "National population census and sample surveys: Aggregate/regional measures of population, education, migration, and housing. Access: Public tabulations; confirm separate access for micro samples. Official entry point: https://www.stats.gov.cn/",
       "topics": [
-        "人口",
-        "迁移",
-        "教育",
-        "住房"
+        "population",
+        "migration",
+        "education",
+        "housing"
       ]
     },
     {
       "id": "dataset:236",
       "group": "dataset",
-      "label": "国家统计局数据库",
-      "facet": "数据集",
-      "text": "国家与地区年度统计：省市县级经济、人口、就业与公共服务指标。获取：公开表格；记录下载日期与口径。官方入口：https://data.stats.gov.cn/",
+      "label": "National Bureau of Statistics database",
+      "facet": "Dataset",
+      "text": "Annual national and regional statistics: Prefecture-, city-, and county-level economic, demographic, employment, and public-service indicators. Access: Public tables; record download date and definitions. Official entry point: https://data.stats.gov.cn/",
       "topics": [
-        "地区",
-        "经济",
-        "就业",
-        "人口"
+        "regions",
+        "economy",
+        "employment",
+        "population"
       ]
     },
     {
       "id": "dataset:237",
       "group": "dataset",
-      "label": "中国城市统计年鉴",
-      "facet": "数据集",
-      "text": "城市层级年度统计：城市经济、建设、公共服务、环境与人口。获取：年鉴/数据库访问权限视来源而定。官方入口：https://www.stats.gov.cn/",
+      "label": "China City Statistical Yearbook",
+      "facet": "Dataset",
+      "text": "Annual city-level statistics: Urban economy, construction, public services, environment, and population. Access: Yearbook/database access depends on source. Official entry point: https://www.stats.gov.cn/",
       "topics": [
-        "城市",
-        "住房",
-        "公共服务",
-        "环境"
+        "urban",
+        "housing",
+        "public services",
+        "environment"
       ]
     },
     {
       "id": "dataset:238",
       "group": "dataset",
-      "label": "中国劳动统计年鉴",
-      "facet": "数据集",
-      "text": "劳动市场年度统计：就业、工资、社保与劳动争议的地区口径。获取：年鉴/数据库访问权限视来源而定。官方入口：https://www.stats.gov.cn/",
+      "label": "China Labour Statistical Yearbook",
+      "facet": "Dataset",
+      "text": "Annual labor-market statistics: Regional measures of employment, wages, social insurance, and labor disputes. Access: Yearbook/database access depends on source. Official entry point: https://www.stats.gov.cn/",
       "topics": [
-        "劳动",
-        "工资",
-        "社保",
-        "就业"
+        "labor",
+        "wages",
+        "social insurance",
+        "employment"
       ]
     },
     {
       "id": "dataset:239",
       "group": "dataset",
-      "label": "教育统计数据",
-      "facet": "数据集",
-      "text": "教育部教育事业发展统计：学校、师生、经费和升学的行政统计。获取：公开汇总表；学校微观资料通常受限。官方入口：http://www.moe.gov.cn/",
+      "label": "Education statistics",
+      "facet": "Dataset",
+      "text": "Ministry of Education statistics on educational development: Administrative statistics on schools, teachers and students, funding, and progression. Access: Public tabulations; school-level microdata are usually restricted. Official entry point: http://www.moe.gov.cn/",
       "topics": [
-        "教育",
-        "学校",
-        "地区"
+        "education",
+        "school",
+        "regions"
       ]
     },
     {
       "id": "dataset:240",
       "group": "dataset",
-      "label": "中国裁判文书/政府公开信息",
-      "facet": "数据集",
-      "text": "公开法律与政府文本：文本、案件或政策执行的可观察痕迹。获取：公开性不等于可批量再利用；遵守站点规则。官方入口：https://wenshu.court.gov.cn/",
+      "label": "China Judgments Online/government public information",
+      "facet": "Dataset",
+      "text": "Public legal and government texts: Observable traces of texts, cases, or policy implementation. Access: Public availability does not imply bulk-reuse rights; follow site rules. Official entry point: https://wenshu.court.gov.cn/",
       "topics": [
-        "法律",
-        "治理",
-        "文本",
-        "平台"
+        "law",
+        "governance",
+        "text",
+        "platform"
       ]
     },
     {
       "id": "dataset:241",
       "group": "dataset",
-      "label": "北京大学数字普惠金融指数",
-      "facet": "数据集",
-      "text": "地区数字金融指标：省市县层级数字金融发展及子维度。获取：核对版本、空间匹配与使用许可。官方入口：https://idf.pku.edu.cn/",
+      "label": "Peking University Digital Financial Inclusion Index",
+      "facet": "Dataset",
+      "text": "Regional digital-finance indicators: Provincial, prefectural, and county-level digital-finance development and subdimensions. Access: Verify version, spatial matching, and usage license. Official entry point: https://idf.pku.edu.cn/",
       "topics": [
-        "数字",
-        "金融",
-        "城市",
-        "地区"
+        "digital",
+        "finance",
+        "urban",
+        "regions"
       ]
     },
     {
       "id": "dataset:242",
       "group": "dataset",
-      "label": "中国家庭面板/专题调查二次数据",
-      "facet": "数据集",
-      "text": "学术机构专题数据：针对特定群体和机制的补充微观资料。获取：逐项核验抽样、年份、许可和字段文档。官方入口：https://opendata.pku.edu.cn/",
+      "label": "China household panel/special-topic survey secondary data",
+      "facet": "Dataset",
+      "text": "Special-topic data from academic institutions: Supplementary microdata on specific groups and mechanisms. Access: Verify sampling, years, permissions, and field documentation for each dataset. Official entry point: https://opendata.pku.edu.cn/",
       "topics": [
-        "家庭",
-        "教育",
-        "健康",
-        "专题"
+        "family",
+        "education",
+        "health",
+        "special topics"
       ]
     },
     {
       "id": "dataset:243",
       "group": "dataset",
       "label": "World Values Survey",
-      "facet": "数据集",
-      "text": "世界价值观调查：国际态度、价值与社会信任比较。获取：注册下载并使用调查权重。官方入口：https://www.worldvaluessurvey.org/",
+      "facet": "Dataset",
+      "text": "World Values Survey: Cross-national comparisons of attitudes, values, and social trust. Access: Register, download, and use survey weights. Official entry point: https://www.worldvaluessurvey.org/",
       "topics": [
-        "价值",
-        "信任",
-        "政治",
-        "比较"
+        "values",
+        "trust",
+        "politics",
+        "comparative"
       ]
     },
     {
       "id": "dataset:244",
       "group": "dataset",
       "label": "ISSP",
-      "facet": "数据集",
-      "text": "国际社会调查项目：跨国模块化社会态度与制度评价。获取：按 archive 规则使用。官方入口：https://issp.org/",
+      "facet": "Dataset",
+      "text": "International Social Survey Programme: Cross-national, modular social attitudes and institutional evaluations. Access: Use according to archive rules. Official entry point: https://issp.org/",
       "topics": [
-        "态度",
-        "家庭",
-        "不平等",
-        "比较"
+        "attitudes",
+        "family",
+        "inequality",
+        "comparative"
       ]
     },
     {
       "id": "quality_check:245",
       "group": "quality_check",
-      "label": "研究问题分级",
-      "facet": "检查项",
-      "text": "先标注本研究是描述、关联、机制还是因果；结论强度不得越级。",
+      "label": "Research-question level",
+      "facet": "Check",
+      "text": "First classify the study as descriptive, associational, mechanistic, or causal; do not make claims stronger than the design supports.",
       "topics": []
     },
     {
       "id": "quality_check:246",
       "group": "quality_check",
-      "label": "分析单位",
-      "facet": "检查项",
-      "text": "明确变量在个人、家庭、企业、社区或地区层级，避免跨层解释。",
+      "label": "Unit of analysis",
+      "facet": "Check",
+      "text": "Specify whether variables are at the individual, household, firm, community, or regional level; avoid cross-level interpretations.",
       "topics": []
     },
     {
       "id": "quality_check:247",
       "group": "quality_check",
-      "label": "时间顺序",
-      "facet": "检查项",
-      "text": "为 X、M、Y 标明测量时点；横截面不能证明先后。",
+      "label": "Temporal ordering",
+      "facet": "Check",
+      "text": "Mark measurement times for X, M, and Y; cross-sectional data cannot establish ordering.",
       "topics": []
     },
     {
       "id": "quality_check:248",
       "group": "quality_check",
-      "label": "样本流程",
-      "facet": "检查项",
-      "text": "报告初始 N、每个排除规则、缺失导致的损失和最终 N。",
+      "label": "Sample flow",
+      "facet": "Check",
+      "text": "Report initial N, every exclusion rule, loss due to missingness, and final N.",
       "topics": []
     },
     {
       "id": "quality_check:249",
       "group": "quality_check",
-      "label": "权重",
-      "facet": "检查项",
-      "text": "使用调查数据时查代码本决定是否使用个人/家庭/纵向权重。",
+      "label": "Weights",
+      "facet": "Check",
+      "text": "With survey data, consult the codebook to determine whether individual/household/longitudinal weights should be used.",
       "topics": []
     },
     {
       "id": "quality_check:250",
       "group": "quality_check",
-      "label": "缺失",
-      "facet": "检查项",
-      "text": "分别报告核心变量缺失比例与处理；不要默认 listwise deletion 无偏。",
+      "label": "Missingness",
+      "facet": "Check",
+      "text": "Report missingness and handling separately for core variables; do not assume listwise deletion is unbiased.",
       "topics": []
     },
     {
       "id": "quality_check:251",
       "group": "quality_check",
-      "label": "异常值",
-      "facet": "检查项",
-      "text": "预先声明截尾、winsorize、log/IHS 变换及其阈值，并做敏感性对照。",
+      "label": "Outliers",
+      "facet": "Check",
+      "text": "Pre-specify trimming, winsorization, log/IHS transformations, and thresholds, then conduct sensitivity comparisons.",
       "topics": []
     },
     {
       "id": "quality_check:252",
       "group": "quality_check",
-      "label": "参照组",
-      "facet": "检查项",
-      "text": "类别变量标注参照组；交互项报告组合预测值而非只读系数。",
+      "label": "Reference groups",
+      "facet": "Check",
+      "text": "Label reference groups for categorical variables; report combined predictions for interactions rather than reading coefficients alone.",
       "topics": []
     },
     {
       "id": "quality_check:253",
       "group": "quality_check",
-      "label": "标准误",
-      "facet": "检查项",
-      "text": "根据抽样/处理分配/重复观察层级选择聚类或复杂抽样方差估计。",
+      "label": "Standard errors",
+      "facet": "Check",
+      "text": "Choose clustered or complex-survey variance estimation according to the sampling, treatment-assignment, and repeated-observation levels.",
       "topics": []
     },
     {
       "id": "quality_check:254",
       "group": "quality_check",
-      "label": "共同支持",
-      "facet": "检查项",
-      "text": "匹配、加权和因果模型检查处理组与对照组的可比支持区间。",
+      "label": "Common support",
+      "facet": "Check",
+      "text": "For matching, weighting, and causal models, check comparable support ranges for treatment and control groups.",
       "topics": []
     },
     {
       "id": "quality_check:255",
       "group": "quality_check",
-      "label": "预趋势",
-      "facet": "检查项",
-      "text": "任何 DiD/事件研究在处理前展示系数、置信区间和具体窗口。",
+      "label": "Pre-trends",
+      "facet": "Check",
+      "text": "For any DiD/event study, show pre-treatment coefficients, confidence intervals, and the specific window.",
       "topics": []
     },
     {
       "id": "quality_check:256",
       "group": "quality_check",
-      "label": "安慰剂",
-      "facet": "检查项",
-      "text": "用不应受影响的时间、结果或伪处理组检验设计的特异性。",
+      "label": "Placebos",
+      "facet": "Check",
+      "text": "Use unaffected times, outcomes, or pseudo-treatment groups to test design specificity.",
       "topics": []
     },
     {
       "id": "quality_check:257",
       "group": "quality_check",
-      "label": "多重检验",
-      "facet": "检查项",
-      "text": "多个结果/分组须区分探索与确认性分析，必要时校正或控制 FDR。",
+      "label": "Multiple testing",
+      "facet": "Check",
+      "text": "For multiple outcomes/groups, distinguish exploratory from confirmatory analyses and, when necessary, adjust or control the FDR.",
       "topics": []
     },
     {
       "id": "quality_check:258",
       "group": "quality_check",
-      "label": "异质性",
-      "facet": "检查项",
-      "text": "分组必须有理论先验；报告交互、各组样本量和共同支持。",
+      "label": "Heterogeneity",
+      "facet": "Check",
+      "text": "Subgroups must have theoretical justification; report interactions, group sample sizes, and common support.",
       "topics": []
     },
     {
       "id": "quality_check:259",
       "group": "quality_check",
-      "label": "可复现",
-      "facet": "检查项",
-      "text": "保存原始数据版本、代码本、清洗脚本、分析脚本和随机种子。",
+      "label": "Reproducibility",
+      "facet": "Check",
+      "text": "Preserve raw-data versions, codebooks, cleaning scripts, analysis scripts, and random seeds.",
       "topics": []
     },
     {
       "id": "quality_check:260",
       "group": "quality_check",
-      "label": "伦理与许可",
-      "facet": "检查项",
-      "text": "记录数据协议、去标识化、敏感变量最小化和不可公开材料的访问条件。",
+      "label": "Ethics and permissions",
+      "facet": "Check",
+      "text": "Record data agreements, de-identification, minimization of sensitive variables, and access conditions for nonpublic materials.",
       "topics": []
     }
   ]

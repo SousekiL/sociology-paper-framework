@@ -1,9 +1,9 @@
-# 开放全文阅读协议
+# Open-Access Full-Text Review Protocol
 
-每周阅读一篇明确开放获取、可下载 PDF 的文章。阅读产物是结构化“研究设计卡”，而不是论文的复制、长摘要或训练语料。
+Review one explicitly open-access, downloadable PDF each week. The output is a structured research-design card, not a copy of the article, a long abstract, or training material.
 
-每篇文章的提取文本必须被分段覆盖阅读，再以分段证据卡综合成一张最终卡；不得只截取引言、摘要或前若干页。每张最终卡必须记录：研究谜题、理论机制、数据与样本、变量与测量、识别与模型、诊断与稳健性、可迁移的设计教训、局限、DOI 和开放全文链接。缺失信息必须写 `null`，不得从摘要臆测。
+The extracted text of every article must be read in coverage-preserving chunks and synthesized from the resulting evidence cards; never review only the introduction, abstract, or first pages. Each final card records the research puzzle, theoretical mechanism, data and sample, variables and measurement, identification and model, diagnostics and robustness, transferable design lesson, limitations, DOI, and open full-text link. Use `null` when the full text does not support a field; never infer it from an abstract.
 
-付费墙、robots 限制、没有明确开放获取 PDF、或无有效许可提示的文章不进入自动阅读；可由用户在具备合法访问权后主动提供全文。公开仓库不提交 PDF、提取出的原文文本或私有阅读卡。
+Do not automatically review paywalled articles, robots-restricted content, PDFs without explicit open access, or articles without an effective license signal. A user with lawful access may provide a full text. The public repository never commits PDFs, extracted article text, or private reading cards.
 
-自动阅读器使用 OpenAI Chat Completions 兼容协议。密钥从本机 `LLM_API_KEY`（兼容 `OPENAI_API_KEY`）读取；可用 `LLM_BASE_URL` 指定以 `/v1` 结尾的兼容服务地址，并用 `LLM_MODEL` 指定模型。密钥只能存于本机安全凭据工具或私有环境配置，不能写入仓库或聊天记录。
+The reviewer uses an OpenAI Chat Completions-compatible API. It reads `LLM_API_KEY` (or `OPENAI_API_KEY`) locally; `LLM_BASE_URL` sets a compatible URL ending in `/v1`, and `LLM_MODEL` selects the model. Store all credentials only in a local secure credential store or private environment configuration, never in a repository or chat.

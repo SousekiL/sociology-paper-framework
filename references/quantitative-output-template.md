@@ -1,75 +1,75 @@
-# 量化社会学论文框架输出模板
+# Quantitative Sociology Paper-Framework Output Template
 
-以下模板是一次 skill 调用的默认成品结构。信息不足时，明确写“待确认”，并给出最小可行选择；不要伪造题项、样本量、政策冲击或结果。
+This is the default deliverable structure for one skill invocation. If information is insufficient, write “to verify” and give the minimum viable choice; do not fabricate survey items, sample sizes, policy shocks, or results.
 
-## 0. 题目与研究边界
+## 0. Working title and research boundary
 
-- 工作题目：
-- 对象 / 地点 / 时期：
-- 分析单位与比较组：
-- 研究的社会学意义与外推边界：
+- Working title:
+- Population / place / period:
+- Unit of analysis and comparison group:
+- Sociological significance and external-validity boundary:
 
-## 1. 研究谜题、问题与假设
+## 1. Puzzle, question, and hypotheses
 
-- 经验谜题：
-- 主研究问题：
-- H1（主要关联或效应）：
-- H2（机制/中介，若时间顺序与测量可支持）：
-- H3（异质性/调节）：
-- 竞争解释及排除策略：
+- Empirical puzzle:
+- Main research question:
+- H1 (primary association or effect):
+- H2 (mechanism/mediation, only if temporal order and measurement support it):
+- H3 (heterogeneity/moderation):
+- Rival explanations and exclusion strategy:
 
-## 2. 理论机制与因果图
+## 2. Theoretical mechanism and causal diagram
 
-用一行写出 `X → M → Y`，并列出前置共同原因、可能的处理后变量、潜在碰撞点和不可控制的替代机制。没有可信识别时，用“理论过程图”而非因果 DAG 的措辞。
+Write `X → M → Y` on one line. List pre-treatment common causes, possible post-treatment variables, potential colliders, and unmeasured alternative mechanisms. Without credible identification, call this a theoretical process map rather than a causal DAG.
 
-## 3. 估计对象与结论强度
+## 3. Estimand and claim strength
 
-- 目标：描述 / 条件关联 / 机制证据 / 因果效应（四选一，并说明理由）。
-- Estimand：例如总体加权均值差、条件平均差、ATT、事件时间效应。
-- 允许的结论：
-- 不能声称的结论：
+- Target: description / conditional association / mechanism evidence / causal effect (choose one and explain).
+- Estimand: e.g., population-weighted mean difference, conditional mean difference, ATT, or event-time effect.
+- Permitted conclusion:
+- Conclusion not supported:
 
-## 4. 数据与样本构建
+## 4. Data and sample construction
 
-| 项目 | 决策 | 需核验的代码本/元数据 |
+| Item | Decision | Codebook/metadata to verify |
 | --- | --- | --- |
-| 主数据集 |  | 波次、访问许可、抽样总体 |
-| 备选数据集 |  | 核心变量是否存在 |
-| 纳入/排除 |  | 年龄、状态、地区、重复观测 |
-| 合并 |  | 键、层级、年份、重复规则 |
-| 权重/设计 |  | 个体/家庭/纵向权重、PSU、分层 |
-| 预期样本 |  | 每一步的 N 和缺失损失 |
+| Primary dataset |  | Waves, access permission, sampling population |
+| Backup dataset |  | Presence of core variables |
+| Inclusion/exclusion |  | Age, status, region, repeat observations |
+| Merge |  | Keys, levels, years, duplicate rules |
+| Weights/design |  | Person/household/longitudinal weights, PSU, strata |
+| Expected sample |  | N and missing-data loss at each step |
 
-## 5. 变量字典与测量
+## 5. Variable dictionary and measurement
 
-| 角色 | 构念 | 原始题项/字段（待核验） | 主编码 | 缺失/变换 | 替代编码与风险 |
+| Role | Construct | Raw item/field (to verify) | Primary coding | Missingness/transformation | Alternative coding and risk |
 | --- | --- | --- | --- | --- | --- |
 | Y |  |  |  |  |  |
 | X |  |  |  |  |  |
 | M |  |  |  |  |  |
 | Z |  |  |  |  |  |
-| 前置控制 |  |  |  |  |  |
+| Pre-treatment control |  |  |  |  |  |
 
-说明：控制只纳入处理前的共同原因；任何量表列题项数、反向题、加总/平均、信度和跨组可比性。
+Include only common causes measured before treatment as controls. For every scale, state item count, reverse-coded items, aggregation rule, reliability, and cross-group comparability.
 
-## 6. 主模型、识别与诊断
+## 6. Primary model, identification, and diagnostics
 
-- 主模型/估计式：
-- 为何该模型匹配 Y 的分布、层级和估计对象：
-- 识别假设：
-- 标准误、聚类和权重：
-- 最低诊断：
-- 失败时的降级方案（例如从因果改为关联设计）：
+- Primary model/estimating equation:
+- Why it matches Y's distribution, nesting, and estimand:
+- Identification assumptions:
+- Standard errors, clustering, and weights:
+- Minimum diagnostics:
+- Fallback if diagnostics fail (for example, downgrade a causal to an associational design):
 
-## 7. 稳健性、异质性与透明度
+## 7. Robustness, heterogeneity, and transparency
 
-1. 替代 Y/X 测量：
-2. 样本/窗口/权重敏感性：
-3. 对应设计的安慰剂或假设诊断：
-4. 有理论依据的异质性：
-5. 缺失与选择偏差：
-6. 代码、版本、数据许可与伦理：
+1. Alternative Y/X measures:
+2. Sensitivity to sample, window, and weights:
+3. Placebo or assumption diagnostics appropriate to the design:
+4. Theory-motivated heterogeneity:
+5. Missingness and selection bias:
+6. Code, versions, data permission, and ethics:
 
-## 8. 可写成的结论
+## 8. Writeable conclusion
 
-只写条件性结论模板：如果预注册的模型、诊断和稳健性均支持，则可以报告何种模式、支持何种机制解释、以及不能推广到哪些人群或情境。不得把假设写成既有发现。
+Write only a conditional conclusion template: if preregistered models, diagnostics, and robustness checks support the design, state what pattern can be reported, what mechanism account it supports, and which populations or settings it cannot generalize to. Never write hypotheses as established findings.
