@@ -1,6 +1,6 @@
 ---
 name: sociology-paper-framework
-description: Generate a feasible sociology-journal research framework for a user topic, grounded in a maintained Chinese and international journal evidence library.
+description: Generate a feasible sociology-journal quantitative research framework for a user topic, grounded in methods, measurement, data, and quality standards.
 ---
 
 # Sociology Paper Framework
@@ -12,8 +12,8 @@ Turn a topic into a rigorous, primarily **quantitative** sociology research desi
 1. Run `scripts/query_quant_catalog.py --topic "<topic>"`. It retrieves maintained cards for research designs, variable measurement, Chinese/ comparative datasets, coding cautions, and diagnostic checks. Use the `--aim` option only when the user clearly specifies description, association, mechanism, or causal effect.
 2. Read [references/quantitative-research-standard.md](references/quantitative-research-standard.md) before proposing an identification strategy. It is the required output and measurement standard.
 3. Build the sociological puzzle directly from the topic, mechanism, scope condition, and comparison group. Do not force a theory or a causal claim merely because a method card exists.
-4. Use `library/article-metadata.jsonl` only when the user specifically asks for literature leads, a journal scan, or methodological trends. It contains public metadata and available abstracts, not articles. For its append-only update protocol, read [references/library-maintenance.md](references/library-maintenance.md).
-5. When `library/fulltext-reading-notes.jsonl` contains notes, use them as stronger design evidence than metadata alone. Each note comes from a small weekly set of legally accessible full texts; read [references/full-text-review-protocol.md](references/full-text-review-protocol.md) before relying on it.
+4. A private local `library/` directory may be present on the current device. Use it only when it exists and the user requests literature leads, a journal scan, or methodological trends. Never assume it is installed, distributed, or available to other users.
+5. If private full-text reading notes are present, use them as stronger design evidence than metadata alone. Follow [references/full-text-review-protocol.md](references/full-text-review-protocol.md); never claim to have read a paper when no local note or lawful user-provided full text exists.
 
 ## Deliverable
 

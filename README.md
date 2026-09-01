@@ -2,61 +2,39 @@
 
 [中文](README.md) · [English](README.en.md)
 
-把一个社会学话题转化为可审查、可复现、适合期刊论文写作的**量化研究设计**。它不保存或复制原始论文；核心是方法、测量、数据选择、识别和诊断的规范库。
+把任意社会学话题转化为面向期刊论文的、可执行的**量化研究设计**。默认中文输出，也可要求英文。
 
-## 它会产出什么
+## 你会得到什么
 
-- 明确的研究问题、理论机制、可证伪假设与竞争解释；
-- 合适的结论强度：描述、关联、机制或因果，而不是把回归自动说成因果；
-- 变量字典：构念、待核验题项、编码、缺失、参照组、替代测量；
-- 中国数据建议：CGSS、CFPS、CLDS、CHARLS、CHFS、CEPS、CHIP、统计年鉴等；
-- 主模型、识别假设、诊断、稳健性、异质性、可复现与伦理要求；
-- 条件性的结论边界，而非虚构研究发现。
-
-## 内置规范库
-
-`data/quantitative-reference-catalog.json` 有 260 张可检索卡片：
-
-- 116 张方法与诊断卡；
-- 108 张变量测量与编码卡；
-- 20 个数据集卡；
-- 16 项质量控制卡。
+- 研究问题、理论机制、可证伪假设与竞争解释；
+- 清楚区分描述、关联、机制与因果的结论边界；
+- 变量字典：构念、编码、缺失处理、参照组和替代测量；
+- 适合中国议题的数据建议，如 CGSS、CFPS、CLDS、CHARLS、CHFS、CEPS、CHIP 和统计年鉴；
+- 主模型、识别假设、诊断、稳健性和异质性检验；
+- 一份能直接扩展为论文大纲的研究设计，而不是虚构的实证结果。
 
 ## 使用
 
-将整个目录放入 Codex 的 skills 目录，或安装后调用：
+安装到 Codex skills 目录后调用：
 
 ```text
 $sociology-paper-framework
 主题：平台劳动者的社会关系如何影响职业流动？
 ```
 
-技能会先读取与话题相关的方法、测量和数据卡，再按 `references/quantitative-output-template.md` 生成框架。具体题项、字段和数据许可必须以所选数据集代码本为准。
+也可以直接指定目标：
 
-## 文献资料库：增量、可追溯、不覆盖
-
-`library/` 保存的是文章的公开**元数据与公开摘要**，不是论文全文。更新脚本遵循追加与 DOI 去重规则：旧记录永不被新扫描替换；新记录只会丰富同一资料库。每周会精选一篇明确开放获取的 PDF，覆盖式分段读取全文后，只保存结构化研究设计卡（研究问题、理论机制、数据、测量、模型、诊断与局限），不提交 PDF 或原文文本。
-
-- `scripts/update_literature_library.py --mode current`：导入截至今天的近六个月资料；
-- `--mode weekly`：扫描最新资料，并为每一种来源向更早历史推进一个六个月窗口；
-- `--mode history --batches 12`：手动连续补 12 个窗口；
-- 每个来源连续四个历史窗口为空后才被标记为“可自动获取的历史已暂时耗尽”。
-
-覆盖中国社会研究相关英文期刊、ASR、*Social Problems*、*The British Journal of Sociology*，并增加 *American Economic Review*、*Econometrica*、*Journal of the American Statistical Association* 和 *Sociological Methods & Research* 以吸收计量与统计方法前沿。中文《社会学研究》和《社会》保留官方目录入口及人工核验队列，因为其元数据并不稳定地进入开放 API。
-
-## 每周更新
-
-GitHub Actions 会在每周一运行一次，并在有新增元数据或状态变更时提交到 `main`。也可以在 Actions 页面手动触发。工作流不会删除历史记录。原文阅读兼容 OpenAI Chat Completions 协议：在 Actions secrets 中设置 `LLM_API_KEY`（也兼容旧名 `OPENAI_API_KEY`），并在 repository variables 中设置可选的 `LLM_BASE_URL`（例如 `https://你的服务商/v1`）与 `LLM_MODEL`。不设置 URL 与模型名时默认使用官方 OpenAI。未配置密钥时，工作流只生成合规的开放全文阅读队列，不会伪称已经学习全文。
-
-## 验证
-
-```bash
-python3 scripts/build_quant_catalog.py
-python3 scripts/validate_quant_catalog.py
-python3 scripts/query_quant_catalog.py --topic '社会关系与职业流动'
-python3 scripts/update_literature_library.py --mode current
+```text
+$sociology-paper-framework
+请用英文设计一项关于户籍身份与职业流动的因果识别研究；优先推荐可获得的中国面板数据。
 ```
+
+该 skill 内置方法、测量、数据与质量控制规范。具体题项、字段、样本限制和数据许可仍须以数据代码本与使用协议为准。
+
+## 隐私
+
+公开仓库不包含任何个人文献库、文章全文、阅读卡、API 密钥或自动更新产生的数据。你可在自己的设备上维护私有资料库；它不会随 skill 安装、fork 或下载而分发。
 
 ## 边界
 
-本项目提供研究设计和资料发现支持，不替代代码本核对、研究伦理审查、数据使用协议或实证分析。
+本项目提供研究设计支持，不替代数据清洗、代码本核对、研究伦理审查、数据使用协议或实际实证分析。

@@ -1,3 +1,5 @@
 __pycache__/
 *.py[cod]
 .DS_Store
+# Private, machine-local research material. Never commit or distribute it.
+library/
