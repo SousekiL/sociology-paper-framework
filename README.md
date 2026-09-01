@@ -46,7 +46,7 @@ $sociology-paper-framework
 
 ## 每周更新
 
-GitHub Actions 会在每周一运行一次，并在有新增元数据或状态变更时提交到 `main`。也可以在 Actions 页面手动触发。工作流不会删除历史记录。原文阅读需要仓库配置 `OPENAI_API_KEY` secret；未配置时，工作流只生成合规的开放全文阅读队列，不会伪称已经学习全文。
+GitHub Actions 会在每周一运行一次，并在有新增元数据或状态变更时提交到 `main`。也可以在 Actions 页面手动触发。工作流不会删除历史记录。原文阅读兼容 OpenAI Chat Completions 协议：在 Actions secrets 中设置 `LLM_API_KEY`（也兼容旧名 `OPENAI_API_KEY`），并在 repository variables 中设置可选的 `LLM_BASE_URL`（例如 `https://你的服务商/v1`）与 `LLM_MODEL`。不设置 URL 与模型名时默认使用官方 OpenAI。未配置密钥时，工作流只生成合规的开放全文阅读队列，不会伪称已经学习全文。
 
 ## 验证
 

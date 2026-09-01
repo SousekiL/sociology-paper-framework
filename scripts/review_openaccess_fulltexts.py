@@ -50,8 +50,10 @@ def extract_pdf(data: bytes) -> str:
 
 
 def ask_model(api_key: str, prompt: str, content: str) -> dict:
-    request_body = json.dumps({"model": os.environ.get("OPENAI_MODEL", "gpt-4.1-mini"), "temperature": 0, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt + content}]}).encode()
-    request = urllib.request.Request("https://api.openai.com/v1/chat/completions", data=request_body, headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}, method="POST")
+    model = os.environ.get("LLM_MODEL") or os.environ.get("OPENAI_MODEL", "gpt-4.1-mini")
+    base_url = (os.environ.get("LLM_BASE_URL") or os.environ.get("OPENAI_BASE_URL") or "https://api.openai.com/v1").rstrip("/")
+    request_body = json.dumps({"model": model, "temperature": 0, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt + content}]}).encode()
+    request = urllib.request.Request(base_url + "/chat/completions", data=request_body, headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}, method="POST")
     with urllib.request.urlopen(request, timeout=180) as response:
         payload = json.load(response)
     return json.loads(payload["choices"][0]["message"]["content"])
@@ -77,9 +79,9 @@ def review_full_article(api_key: str, article_text: str) -> dict:
 
 
 def main() -> int:
-    key = os.environ.get("OPENAI_API_KEY")
+    key = os.environ.get("LLM_API_KEY") or os.environ.get("OPENAI_API_KEY")
     if not key:
-        raise SystemExit("OPENAI_API_KEY is required for automated full-text learning; no review was attempted.")
+        raise SystemExit("LLM_API_KEY (or OPENAI_API_KEY) is required for automated full-text learning; no review was attempted.")
     queued = json.loads(QUEUE.read_text(encoding="utf-8")).get("papers", [])
     reviewed = {json.loads(line).get("doi") for line in NOTES.read_text(encoding="utf-8").splitlines() if line.strip()} if NOTES.exists() else set()
     written = 0
