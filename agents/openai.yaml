@@ -1,4 +1,4 @@
 interface:
   display_name: "Socpaper"
   short_description: "将社会学话题转化为可执行的量化论文框架"
-  default_prompt: "使用 $socpaper paper 为这个话题设计一篇量化社会学论文："
+  default_prompt: "使用 /socpaper paper 为这个话题设计一篇量化社会学论文："

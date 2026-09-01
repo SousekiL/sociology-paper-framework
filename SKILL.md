@@ -5,7 +5,7 @@ description: Design, assess methods, frame theory, or map literature for a socio
 
 # Socpaper
 
-Use one command with a leading mode keyword. If the first word after `$socpaper` case-insensitively matches a keyword below, remove it from the topic before working. Otherwise retain all text as the topic and default to `paper`.
+Use one command with a leading mode keyword. If the first word after `/socpaper` case-insensitively matches a keyword below, remove it from the topic before working. Otherwise retain all text as the topic and default to `paper`.
 
 | Keyword | Task |
 | --- | --- |

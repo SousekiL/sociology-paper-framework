@@ -15,13 +15,21 @@
 
 ## 使用
 
-安装后只需记住一个命令：`$socpaper`。在命令后加入一个模式关键词，再写你的话题；不写关键词时默认 `paper`。
+### 第一步：安装
+
+打开并安装这个 skill：[Socpaper 安装页](https://github.com/SousekiL/sociology-paper-framework)。也可以直接下载：[ZIP 安装包](https://github.com/SousekiL/sociology-paper-framework/archive/refs/heads/main.zip)。
+
+它适合支持自定义 Skill、Agent 或提示词包的工具，例如 Codex、Claude Code、Hermes Agent 和其他 Agent 工作台：导入或复制**完整文件夹**，然后新开一个对话即可使用。不同工具的导入按钮或文件夹位置会不同，但不需要配置 API Key 才能生成研究框架。
+
+### 第二步：输入命令
+
+只需记住一个命令：`/socpaper`。在命令后加入一个模式关键词，再写你的话题；不写关键词时默认 `paper`。
 
 ```text
-$socpaper paper 社会关系如何影响平台劳动者的职业流动？
-$socpaper method 社会关系与职业流动
-$socpaper theory 数字平台中的社会关系发展
-$socpaper review 中国青年就业中的社会资本
+/socpaper paper 社会关系如何影响平台劳动者的职业流动？
+/socpaper method 社会关系与职业流动
+/socpaper theory 数字平台中的社会关系发展
+/socpaper review 中国青年就业中的社会资本
 ```
 
 | 关键词 | 用途 | 最适合的输入 |
@@ -36,7 +44,7 @@ $socpaper review 中国青年就业中的社会资本
 也可以直接指定更具体的目标：
 
 ```text
-$socpaper paper 请用英文设计一项关于户籍身份与职业流动的因果识别研究；优先推荐可获得的中国面板数据。
+/socpaper paper 请用英文设计一项关于户籍身份与职业流动的因果识别研究；优先推荐可获得的中国面板数据。
 ```
 
 该 skill 内置方法、测量、数据与质量控制规范。具体题项、字段、样本限制和数据许可仍须以数据代码本与使用协议为准。

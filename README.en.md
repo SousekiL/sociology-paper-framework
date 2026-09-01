@@ -15,13 +15,21 @@ Turn a sociology topic into a feasible, journal-oriented **quantitative research
 
 ## Use
 
-After installation, remember just one command: `$socpaper`. Put a mode keyword after it, then your topic. Without a keyword, it defaults to `paper`.
+### 1. Install
+
+Open the [Socpaper repository](https://github.com/SousekiL/sociology-paper-framework) and install the skill, or download the [ZIP package](https://github.com/SousekiL/sociology-paper-framework/archive/refs/heads/main.zip).
+
+It can be used in tools that support custom Skills, Agents, or prompt packages, including Codex, Claude Code, Hermes Agent, and other agent workbenches. Import or copy the **entire folder**, then start a new chat. The UI and folder location differ by tool; no API key is needed to generate a research framework.
+
+### 2. Use one command
+
+Remember just one command: `/socpaper`. Put a mode keyword after it, then your topic. Without a keyword, it defaults to `paper`.
 
 ```text
-$socpaper paper How do social relationships affect platform workers' mobility?
-$socpaper method social relationships and occupational mobility
-$socpaper theory social relationships in digital platforms
-$socpaper review social capital and youth employment in China
+/socpaper paper How do social relationships affect platform workers' mobility?
+/socpaper method social relationships and occupational mobility
+/socpaper theory social relationships in digital platforms
+/socpaper review social capital and youth employment in China
 ```
 
 | Keyword | Purpose | Best input |
@@ -36,7 +44,7 @@ All four modes primarily use the model's own social-science and methodological r
 You can also specify the intended design directly:
 
 ```text
-$socpaper paper In English, design a causal study of hukou status and occupational mobility, prioritizing accessible Chinese panel data.
+/socpaper paper In English, design a causal study of hukou status and occupational mobility, prioritizing accessible Chinese panel data.
 ```
 
 The skill includes method, measurement, data, and quality-control standards. Always verify final items, fields, sample rules, and permissions against the selected data documentation.
