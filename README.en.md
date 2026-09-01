@@ -15,29 +15,28 @@ Turn a sociology topic into a feasible, journal-oriented **quantitative research
 
 ## Use
 
-After installation, invoke one of four short commands (each is under 10 letters):
+After installation, remember just one command: `$socpaper`. Put a mode keyword after it, then your topic. Without a keyword, it defaults to `paper`.
 
 ```text
-$socpaper  How do social relationships affect platform workers' mobility?
-$socmethod social relationships and occupational mobility
-$soctheory  social relationships in digital platforms
-$socreview  social capital and youth employment in China
+$socpaper paper How do social relationships affect platform workers' mobility?
+$socpaper method social relationships and occupational mobility
+$socpaper theory social relationships in digital platforms
+$socpaper review social capital and youth employment in China
 ```
 
-| Command | Purpose | Best input |
+| Keyword | Purpose | Best input |
 | --- | --- | --- |
-| `$socpaper` | Full quantitative paper framework | Topic or research question |
-| `$socmethod` | Method selection, identification, and diagnostics | Question or keywords |
-| `$soctheory` | Theory, mechanisms, and propositions | Topic or phenomenon |
-| `$socreview` | Prior research, debates, and gaps | Field or keywords |
+| `paper` | Full quantitative paper framework | Topic or research question |
+| `method` | Method selection, identification, and diagnostics | Question or keywords |
+| `theory` | Theory, mechanisms, and propositions | Topic or phenomenon |
+| `review` | Prior research, debates, and gaps | Field or keywords |
 
-All four primarily use the model's own social-science and methodological reasoning. A private local library is used only when it is genuinely available as supplementary evidence; uncertain memory is never presented as a verified citation.
+All four modes primarily use the model's own social-science and methodological reasoning. A private local library is used only when it is genuinely available as supplementary evidence; uncertain memory is never presented as a verified citation.
 
 You can also specify the intended design directly:
 
 ```text
-$socpaper
-In English, design a causal study of hukou status and occupational mobility, prioritizing accessible Chinese panel data.
+$socpaper paper In English, design a causal study of hukou status and occupational mobility, prioritizing accessible Chinese panel data.
 ```
 
 The skill includes method, measurement, data, and quality-control standards. Always verify final items, fields, sample rules, and permissions against the selected data documentation.

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Socreview"
-  short_description: "梳理研究脉络、争论、证据与可行的研究缺口"
-  default_prompt: "使用 $socreview 梳理这个话题的既有社会学研究："

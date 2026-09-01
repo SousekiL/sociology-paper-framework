@@ -1,38 +1,37 @@
 ---
 name: socpaper
-description: Design a feasible, journal-oriented quantitative sociology paper from a topic or research question.
+description: Design, assess methods, frame theory, or map literature for a sociology topic through one keyword-routed skill.
 ---
 
 # Socpaper
 
-Turn a topic into a rigorous, primarily **quantitative** sociology paper framework. Use general academic reasoning first; local cards and any private library are optional evidence aids, not a substitute for judgment.
+Use one command with a leading mode keyword. If the first word after `$socpaper` case-insensitively matches a keyword below, remove it from the topic before working. Otherwise retain all text as the topic and default to `paper`.
 
-## Start with the quantitative reference system
+| Keyword | Task |
+| --- | --- |
+| `paper` | Full, journal-oriented quantitative paper framework |
+| `method` | Methods, identification, and diagnostics only |
+| `theory` | Theoretical background, mechanisms, and propositions only |
+| `review` | Research streams, debates, and feasible gaps only |
 
-1. Run `scripts/query_quant_catalog.py --topic "<topic>"`. It retrieves maintained cards for research designs, variable measurement, Chinese/ comparative datasets, coding cautions, and diagnostic checks. Use the `--aim` option only when the user clearly specifies description, association, mechanism, or causal effect.
-2. Read [references/quantitative-research-standard.md](references/quantitative-research-standard.md) before proposing an identification strategy. It is the required output and measurement standard.
-3. Build the sociological puzzle directly from the topic, mechanism, scope condition, and comparison group. Do not force a theory or a causal claim merely because a method card exists.
-4. A private local `library/` directory may be present on the current device. Use it only when it exists and the user requests literature leads, a journal scan, or methodological trends. Never assume it is installed, distributed, or available to other users.
-5. If private full-text reading notes are present, use them as stronger design evidence than metadata alone. Follow [references/full-text-review-protocol.md](references/full-text-review-protocol.md); never claim to have read a paper when no local note or lawful user-provided full text exists.
+Respond in Chinese unless asked otherwise. Use general social-science reasoning first. Local method cards and a private `library/` may refine an answer when present; never assume they exist, or invent a citation or full-text reading.
 
-## Deliverable
+## paper
 
-Respond in Chinese unless asked otherwise. Use [references/quantitative-output-template.md](references/quantitative-output-template.md) as the default structure, and give a publication-oriented quantitative design with the twelve required items in the standard. In particular, include:
+Run `scripts/query_quant_catalog.py --topic "<topic>"`, then read [references/quantitative-research-standard.md](references/quantitative-research-standard.md) and [references/quantitative-output-template.md](references/quantitative-output-template.md). Deliver a complete quantitative design: puzzle, research question, theory and rival explanation, falsifiable hypotheses, claim level/estimand, variable dictionary, feasible data and sample plan, primary model and assumptions, diagnostics and robustness, conditional conclusion, ethics and reproducibility.
 
-- one precise research question and two to three falsifiable hypotheses, each linked to an observable mechanism and a competing explanation;
-- an estimand and a claim level (description, association, mechanism, or causal effect); do not call an observational regression causal by default;
-- a variable dictionary table: role (Y/X/M/Z/control), construct, raw question/field to verify in the codebook, coding, reference group or unit, missing-value rule, expected direction, and alternative coding;
-- a sample-construction and data plan: unit, population, years/waves, inclusion/exclusion, weights, merge keys, likely final N, permissions, and why the proposed data actually covers the question;
-- one primary estimation strategy, its assumptions, minimum diagnostics, robust standard error/cluster rule, and at least three theory-motivated robustness or heterogeneity tests;
-- a conditional conclusion: what the design could support, what it cannot establish, and the external-validity boundary;
-- a compact data-management and ethics note.
+Do not call observational regression causal without a plausible source of quasi-exogenous variation. Treat Chinese institutions as mechanisms or scope conditions, not decorative context.
 
-Choose the simplest design that matches the estimand. Offer a causal design only when a plausible source of quasi-exogenous variation is specified; otherwise provide a strong association design and state what additional data or event would be needed for causality. Qualitative work is an optional secondary design only if the user asks for it.
+## method
 
-Do **not** include original-paper links by default or claim to have stored original articles. If literature support is requested, select a small number of verifiable library records, cite their DOI/publisher URL, and label them as reading leads—not as evidence for an unperformed analysis.
+Infer whether the target is descriptive, associational, mechanistic, predictive, or causal. Compare 2–4 viable approaches by estimand, minimum data/design requirements, assumptions, diagnostics, and main failure mode. Recommend one and state the smallest next step needed for credibility. Read the quantitative research standard before proposing causal identification.
 
-## China-specific quality bar
+## theory
 
-Treat institutional arrangements (hukou, local fiscal capacity, platform governance, family strategy, regional hierarchy, etc.) as potential mechanisms or scope conditions, not decorative context. Explain why the proposed case can inform a broader Chinese sociological question, and what it cannot generalize to.
+Start with the sociological puzzle: what varies, for whom, relative to what comparison, and why it is non-obvious. Set out 2–4 genuinely competing lenses, each with a mechanism, observable implication, scope condition, and disconfirming pattern. End with an integrative argument and 2–3 testable propositions. Distinguish constructs from empirical proxies.
 
-For a detailed field checklist and data routing, read [references/framework-checklist.md](references/framework-checklist.md). Do not reproduce copyrighted full articles or bypass access controls; use abstracts, metadata, and user-provided lawful full text for deeper reading.
+## review
+
+Map 3–5 research streams, their central questions, typical evidence, disagreements, and unresolved tensions. If the private local library exists, use verified records as optional reading leads; otherwise provide Chinese and English search strings plus journals or data sources to inspect. Do not invent authors, titles, DOIs, or results. End with a feasible gap and the evidence needed to substantiate it.
+
+For field-specific checks and China-oriented data routing, read [references/framework-checklist.md](references/framework-checklist.md). Do not reproduce copyrighted articles or bypass access controls.
