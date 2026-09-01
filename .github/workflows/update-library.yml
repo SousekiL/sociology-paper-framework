@@ -11,6 +11,10 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      LLM_API_KEY: ${{ secrets.LLM_API_KEY || secrets.OPENAI_API_KEY }}
+      LLM_BASE_URL: ${{ vars.LLM_BASE_URL || 'https://api.openai.com/v1' }}
+      LLM_MODEL: ${{ vars.LLM_MODEL || 'gpt-4.1-mini' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -21,14 +25,10 @@ jobs:
       - name: Select open-access full texts for review
         run: python scripts/build_fulltext_review_queue.py --max 3
       - name: Install PDF text extractor
-        if: ${{ secrets.LLM_API_KEY != '' || secrets.OPENAI_API_KEY != '' }}
+        if: ${{ env.LLM_API_KEY != '' }}
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
       - name: Read selected open-access full texts
-        if: ${{ secrets.LLM_API_KEY != '' || secrets.OPENAI_API_KEY != '' }}
-        env:
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY || secrets.OPENAI_API_KEY }}
-          LLM_BASE_URL: ${{ vars.LLM_BASE_URL || 'https://api.openai.com/v1' }}
-          LLM_MODEL: ${{ vars.LLM_MODEL || 'gpt-4.1-mini' }}
+        if: ${{ env.LLM_API_KEY != '' }}
         run: python scripts/review_openaccess_fulltexts.py
       - name: Commit enriched library
         run: |
